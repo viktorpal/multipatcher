@@ -1,0 +1,19 @@
+[Unit]
+Description=Cell prediction service in DIC tissues using caffe
+After=network.target
+
+
+[Service]
+User=biomag
+ExecStart=/home/biomag/koosk/Autopatcher/scripts/startPredictionServer.sh
+Restart=always
+RestartSec=10                       # Restart service after 10 seconds if node service crashes
+TimeoutStopSec=1
+WorkingDirectory=/home/biomag/koosk/Autopatcher
+StandardOutput=syslog               # Output to syslog
+StandardError=syslog                # Output to syslog
+SyslogIdentifier=prediction-server
+
+
+[Install]
+WantedBy=multi-user.target

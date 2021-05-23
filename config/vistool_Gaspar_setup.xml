@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+   <returnIDs>
+      <returnID>autopatcher</returnID>
+      <returnID>rsImprover</returnID>
+   </returnIDs>
+   <elements>
+      <element>
+         <id>sys</id>
+         <class>PressureAndElphysSystem</class>
+         <constructorParameters/>
+         <properties>
+            <parameter name="deviceName" type="char">Dev2</parameter>
+            <parameter name="valve1channel" type="char">port0/line4</parameter>
+            <parameter name="valve2channel" type="char">port0/line5</parameter>
+            <parameter name="valve3channel" type="char">port0/line3</parameter>
+            <parameter name="valve4channel" type="char">port0/line1</parameter>
+            <parameter name="valve5channel" type="char">port0/line2</parameter>
+            <parameter name="VALVE1OPEN" type="numeric">1</parameter>
+            <parameter name="VALVE2OPEN" type="numeric">1</parameter>
+            <parameter name="VALVE3OPEN" type="numeric">1</parameter>
+            <parameter name="VALVE4OPEN" type="numeric">1</parameter>
+            <parameter name="VALVE5OPEN" type="numeric">1</parameter>
+            <parameter name="pipetteSensorChannel" type="char">ai3</parameter>
+            <parameter name="tankSensorChannel" type="char">ai2</parameter>
+            <parameter name="elphysSignalInChannel" type="char">ai0</parameter>
+            <parameter name="squareSignalMonitorChannel" type="char">ai1</parameter>
+            <parameter name="sampleRate" type="numeric">12000</parameter>
+            <parameter name="updateTime" type="numeric">0.1</parameter> <!-- seconds -->
+         </properties>
+         <methodsToCall>
+            <method>
+               <name>init</name>
+            </method>
+         </methodsToCall>
+      </element>
+      <element>
+         <id>pc</id>
+         <class>CustomPressureController</class>
+         <constructorParameters>
+            <parameter type="reference">sys</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="pipetteOffset" type="numeric">7.6608</parameter>
+            <parameter name="tankOffset" type="numeric">9.4419</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>ep</id>
+         <class>CustomElphysProcessor</class>
+         <constructorParameters>
+            <parameter type="reference">sys</parameter>
+         </constructorParameters>
+      </element>
+      <element>
+         <id>pip</id>
+         <class>SM5Pipette</class>
+         <constructorParameters>
+            <parameter type="char">COM4</parameter> <!-- COM port -->
+            <parameter type="numeric">1</parameter>  <!-- device number -->
+         </constructorParameters>
+         <properties>
+            <parameter name="x_forward" type="numeric">-1</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>mic</id>
+         <class>MicroscopeController</class>
+         <constructorParameters/>
+         <properties/>
+         <methodsToCall>
+            <method>
+               <name>addPipette</name>
+               <parameters>
+                  <parameter type="numeric">1</parameter>
+                  <parameter type="reference">pip</parameter>
+               </parameters>
+            </method>
+         </methodsToCall>
+      </element>
+      <element>
+         <id>amplifier</id>
+         <class>HekaNetwork</class>
+         <constructorParameters>
+            <parameter type="char">10.1.0.2</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="amplifierNumber" type="numeric">1</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>autopatcher</id>
+         <class>AutoPatcher</class>
+         <constructorParameters>
+            <parameter type="reference">mic</parameter>
+            <parameter type="reference">pc</parameter>
+            <parameter type="reference">ep</parameter>
+            <parameter type="reference">amplifier</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="activePipetteId" type="numeric">1</parameter>
+            <parameter name="stepSize" type="numeric">1</parameter>
+            <parameter name="minResistanceChangeForDetection" type="numeric">1</parameter>
+            <parameter name="lowPositivePressure" type="numeric">50</parameter>
+            <parameter name="highPositivePressure" type="numeric">300</parameter>
+            <parameter name="lowNegativePressure" type="numeric">-30</parameter>
+            <parameter name="highNegativePressure" type="numeric">-150</parameter>
+            <parameter name="initialBreakInDelay" type="numeric">0.5</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+      <element>
+         <id>rsImprover</id>
+         <class>RSImprover</class>
+         <properties>
+            <parameter name="pressureController" type="reference">pc</parameter>
+            <parameter name="elphysProcessor" type="reference">ep</parameter>
+            <parameter name="amplifier" type="reference">amplifier</parameter>
+            <parameter name="desiredResistance" type="numeric">5</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+   </elements>
+</model>

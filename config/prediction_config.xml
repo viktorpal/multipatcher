@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+    <returnIDs>
+        <returnID>prediction</returnID>
+    </returnIDs>
+    <elements>
+        <element>
+            <id>prediction</id>
+            <class>struct</class>
+            <properties>
+                <parameter name="use_gpu" type="numeric">false</parameter>
+                <parameter name="networkModel" type="char">data/deploy.prototxt</parameter>
+                <parameter name="networkWeights" type="char">data/snapshot_iter_53928.caffemodel</parameter>
+            </properties>
+        </element>
+    </elements>
+</model>

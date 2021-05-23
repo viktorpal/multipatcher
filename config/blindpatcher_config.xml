@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+   <returnIDs>
+      <returnID>blindPatcherGuiModel</returnID>
+   </returnIDs>
+   <elements>
+      <element>
+         <id>pc</id>
+         <class>PressureSimulator</class>
+      </element>
+      <element>
+         <id>ep</id>
+         <class>ElphysSignalSimulator</class>
+      </element>
+      <element>
+         <id>pip</id>
+         <class>DummyPipetteController</class>
+         <constructorParameters/>
+         <properties>
+            <parameter name="x_forward" type="numeric">-1</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+      <element>
+         <id>mic</id>
+         <class>MicroscopeController</class>
+         <constructorParameters/>
+         <properties/>
+         <methodsToCall>
+            <method>
+               <name>addPipette</name>
+               <parameters>
+                  <parameter type="numeric">1</parameter>
+                  <parameter type="reference">pip</parameter>
+               </parameters>
+            </method>
+         </methodsToCall>
+      </element>
+      <element>
+         <id>amplifier</id>
+         <class>AmplifierSimulator</class>
+      </element>
+      <element>
+         <id>autopatcher</id>
+         <class>AutoPatcher</class>
+         <constructorParameters>
+            <parameter type="reference">mic</parameter>
+            <parameter type="reference">pc</parameter>
+            <parameter type="reference">ep</parameter>
+            <parameter type="reference">amplifier</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="activePipetteId" type="numeric">1</parameter>
+            <parameter name="stepSize" type="numeric">2</parameter>
+            <parameter name="minResistanceChangeForDetection" type="numeric">0.5</parameter>
+            <parameter name="lowPositivePressure" type="numeric">50</parameter>
+            <parameter name="highPositivePressure" type="numeric">300</parameter>
+            <parameter name="lowNegativePressure" type="numeric">-20</parameter>
+            <parameter name="highNegativePressure" type="numeric">-150</parameter>
+            <parameter name="initialBreakInDelay" type="numeric">0.5</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+      <element>
+         <id>rsImprover</id>
+         <class>RSImprover</class>
+         <properties>
+            <parameter name="pressureController" type="reference">pc</parameter>
+            <parameter name="elphysProcessor" type="reference">ep</parameter>
+            <parameter name="amplifier" type="reference">amplifier</parameter>
+            <parameter name="desiredResistance" type="numeric">30</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+      <element>
+         <id>blindPatcherGuiModel</id>
+         <class>BlindPatcherGuiModel</class>
+         <constructorParameters/>
+         <properties>
+            <parameter name="figureOuterPosition" type="numeric">[72,313,578,757]</parameter>
+            <parameter name="autopatcher" type="reference">autopatcher</parameter>
+            <parameter name="rsImprover" type="reference">rsImprover</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+   </elements>
+</model>

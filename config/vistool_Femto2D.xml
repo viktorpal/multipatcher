@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+   <returnIDs>
+      <returnID>microscope</returnID>
+      <returnID>modelParameters</returnID>
+   </returnIDs>
+   <elements>
+       <element>
+         <id>modelParameters</id>
+         <class>struct</class>
+         <properties>
+            <parameter name="cameraTimerPeriod" type="numeric">0.0670</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>pip</id>
+         <class>FemtoLNPipette</class>
+         <constructorParameters>
+             <parameter type="numeric">4</parameter>
+             <parameter type="numeric">5</parameter>
+             <parameter type="numeric">6</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="focusPosition" type="numeric">[0,0,0]</parameter>
+            <parameter name="focusTurretPosition" type="numeric">[0,0,0]</parameter>
+            <parameter name="x_forward" type="numeric">-1</parameter>
+            <parameter name="y_forward" type="numeric">1</parameter>
+            <parameter name="z_forward" type="numeric">-1</parameter>
+            <parameter name="angle" type="numeric">-31.4551</parameter>
+            <parameter name="orientation" type="numeric">5.3801</parameter>
+            <parameter name="tau" type="numeric">6.4149</parameter>
+            <parameter name="beta" type="numeric">-5.2931</parameter>
+            <parameter name="lambda" type="numeric">0.28531</parameter>
+            <parameter name="delta" type="numeric">237.9946</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>stage</id>
+         <class>FemtoLNStage</class>
+      </element>
+      <element>
+         <id>videoobj</id>
+         <class>videoinput</class>
+         <constructorParameters>
+             <parameter type="char">dcam</parameter>
+             <parameter type="numeric">1</parameter>
+             <parameter type="char">F7_Y8_1392x1040</parameter>
+         </constructorParameters>
+      </element>
+      <element>
+         <id>camera</id>
+         <class>DCAMController</class>
+         <constructorParameters>
+             <parameter type="reference">videoobj</parameter>
+         </constructorParameters>
+         <properties>
+             <parameter name="height" type="reference">1040</parameter>
+             <parameter name="width" type="reference">1392</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>microscope</id>
+         <class>MicroscopeController</class>
+         <properties>
+             <parameter name="stage" type="reference">stage</parameter>
+             <parameter name="camera" type="reference">camera</parameter>
+             <parameter name="pixelSizeX" type="reference">MicroscopeController.default40xPixelSize</parameter>
+             <parameter name="pixelSizeY" type="reference">MicroscopeController.default40xPixelSize</parameter>
+         </properties>
+         <methodsToCall>
+            <method>
+               <name>addPipette</name>
+               <parameters>
+                  <parameter type="numeric">1</parameter>
+                  <parameter type="reference">pip</parameter>
+               </parameters>
+            </method>
+         </methodsToCall>
+      </element>
+   </elements>
+</model>

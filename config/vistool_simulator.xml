@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+   <returnIDs>
+      <returnID>microscope</returnID>
+      <returnID>modelParameters</returnID>
+   </returnIDs>
+   <elements><!--element>
+         <id>predictor</id>
+         <class>PredictorLocal</class>
+         <constructorParameters>
+            <parameter type="char">data/deploy.prototxt</parameter>
+            <parameter type="char">data/snapshot_iter_53928.caffemodel</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="use_gpu" type="logical">false</parameter>
+            <parameter name="predictionThreshold" type="numeric">0.01</parameter>
+         </properties>
+      </element-->
+      <element>
+         <id>predictor</id>
+         <class>PredictorRemote</class>
+         <constructorParameters>
+            <parameter type="char">10.7.3.176</parameter><!-- biomag 1--><!--parameter type="char">10.7.2.116</parameter--><!-- Tamas -->
+            <parameter type="numeric">7878</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="predictionThreshold" type="numeric">0.01</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>generalParameters</id>
+         <class>GeneralParameters</class>
+         <properties><!--parameter name="cameraTimerPeriod" type="numeric">0.0670</parameter-->
+            <parameter name="cameraTimerPeriod" type="numeric">0.15</parameter>
+            <parameter name="stackSize" type="numeric">60</parameter>
+            <parameter name="predictionTimerPeriod" type="numeric">1</parameter>
+            <parameter name="predictionMinObjectDimension" type="numeric">[100,100]</parameter>
+            <parameter name="predictionMaxObjectDimension" type="numeric">[200,230]</parameter>
+            <parameter name="predictionMinOverlapToUnite" type="numeric">0.6</parameter>
+            <parameter name="predictionMaxZdistanceToUnite" type="numeric">3</parameter>
+            <parameter name="predictor" type="reference">predictor</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>diary</id>
+         <class>PatchClampDiary</class>
+         <properties>
+            <parameter name="filepath" type="char">PatchClampDiary.log</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>pip</id>
+         <class>DummyPipetteController</class>
+         <properties>
+            <parameter name="focusPosition" type="numeric">[0,0,0]</parameter>
+            <parameter name="focusTurretPosition" type="numeric">[0,0,0]</parameter>
+            <parameter name="x_forward" type="numeric">-1</parameter>
+            <parameter name="y_forward" type="numeric">-1</parameter>
+            <parameter name="z_forward" type="numeric">-1</parameter>
+            <parameter name="angle" type="numeric">-34.5183</parameter>
+            <parameter name="orientation" type="numeric">1.5179</parameter>
+            <parameter name="tau" type="numeric">0.96489</parameter>
+            <parameter name="beta" type="numeric">0</parameter>
+            <parameter name="lambda" type="numeric">0.3415</parameter>
+            <parameter name="delta" type="numeric">259.6935</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>stage</id>
+         <class>DummyStageController</class>
+      </element><!--<element>
+         <id>webcamobj</id>
+         <class>webcam</class>
+         <constructorParameters>
+            <parameter type="numeric">1</parameter>
+         </constructorParameters>
+      </element>
+      <element>
+         <id>camera</id>
+         <class>WebcamController</class>
+         <constructorParameters>
+            <parameter type="reference">webcamobj</parameter>
+         </constructorParameters>
+      </element>-->
+      <element>
+         <id>camera</id>
+         <class>DummyCameraController</class>
+      </element>
+      <!--element>
+         <id>camera</id>
+         <class>VideoFileCameraController</class>
+         <constructorParameters>
+            <parameter type="char">/home/koosk/Data-linux/data/autopatcher/autopatch_cell_tracking/20170821/autopatcher_screencapture1.avi</parameter>
+         </constructorParameters>
+      </element-->
+      <!--<element>
+         <id>camera</id>
+         <class>StackFileCameraController</class>
+         <constructorParameters>
+            <parameter type="char">/home/koosk/Data-linux/images/stack_images/tissues/20170424_51-133/tissue57.tif</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="countPerSlice" type="numeric">10</parameter>
+         </properties>
+      </element>-->
+      <element>
+         <id>microscope</id>
+         <class>MicroscopeController</class>
+         <properties>
+            <parameter name="stage" type="reference">stage</parameter>
+            <parameter name="camera" type="reference">camera</parameter>
+            <parameter name="pixelSizeX" type="reference">MicroscopeController.default40xPixelSize</parameter>
+            <parameter name="pixelSizeY" type="reference">MicroscopeController.default40xPixelSize</parameter>
+         </properties>
+         <methodsToCall>
+            <method>
+               <name>addPipette</name>
+               <parameters>
+                  <parameter type="numeric">1</parameter>
+                  <parameter type="reference">pip</parameter>
+               </parameters>
+            </method>
+         </methodsToCall>
+      </element>
+      <element>
+         <id>pc</id>
+         <class>PressureSimulator</class>
+      </element>
+      <element>
+         <id>ep</id>
+         <class>ElphysSignalSimulator</class>
+      </element>
+      <element>
+         <id>amplifier</id>
+         <class>AmplifierSimulator</class>
+      </element>
+      <element>
+         <id>autopatcher</id>
+         <class>AutoPatcher</class>
+         <constructorParameters>
+            <parameter type="reference">microscope</parameter>
+            <parameter type="reference">pc</parameter>
+            <parameter type="reference">ep</parameter>
+            <parameter type="reference">amplifier</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="activePipetteId" type="numeric">1</parameter>
+            <parameter name="stepSize" type="numeric">2</parameter>
+            <parameter name="minResistanceChangeForDetection" type="numeric">0.5</parameter>
+            <parameter name="lowPositivePressure" type="numeric">50</parameter>
+            <parameter name="highPositivePressure" type="numeric">300</parameter>
+            <parameter name="lowNegativePressure" type="numeric">-20</parameter>
+            <parameter name="highNegativePressure" type="numeric">-150</parameter>
+            <parameter name="initialBreakInDelay" type="numeric">0.5</parameter>
+            <parameter name="breakInDelayIncrease" type="numeric">0.2</parameter>
+            <parameter name="gigasealRvalue" type="numeric">1200</parameter>
+            <parameter name="successBreakInRValue" type="numeric">300</parameter>
+            <parameter name="minDelayBeforeBreakIn" type="numeric">5</parameter>
+            <parameter name="maxBreakInTime" type="numeric">190</parameter>
+            <parameter name="amplifierSealingResistanceThreshold" type="numeric">50</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+      <element>
+         <id>rsImprover</id>
+         <class>RSImprover</class>
+         <properties>
+            <parameter name="pressureController" type="reference">pc</parameter>
+            <parameter name="elphysProcessor" type="reference">ep</parameter>
+            <parameter name="amplifier" type="reference">amplifier</parameter>
+            <parameter name="desiredResistance" type="numeric">30</parameter>
+         </properties>
+         <methodsToCall/>
+      </element>
+      <element>
+         <id>tracker</id>
+         <class>CellTracker</class>
+         <constructorParameters>
+            <parameter type="reference">microscope</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="zStep" type="numeric">1</parameter>
+            <parameter name="radius" type="numeric">120</parameter>
+            <parameter name="distanceThreshold" type="numeric">5</parameter>
+            <parameter name="trackerFrameRate" type="numeric">1</parameter>
+            <parameter name="numZ" type="numeric">7</parameter>
+            <parameter name="reinitPercent" type="numeric">0.1</parameter>
+            <parameter name="reinitNumpoints" type="numeric">10</parameter>
+            <parameter name="corrZsameMultiplier" type="numeric">0.95</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>visualPatcher</id>
+         <class>VisualPatcher</class>
+         <constructorParameters>
+            <parameter type="reference">autopatcher</parameter>
+            <parameter type="reference">tracker</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="diary" type="reference">diary</parameter>
+            <parameter name="controlFrameRate" type="numeric">2</parameter>
+            <parameter name="pipetteStepsize" type="numeric">1.5</parameter>
+            <parameter name="startAutopatcherAtDistance" type="numeric">25</parameter>
+            <parameter name="autopatcherPassDistance" type="numeric">20</parameter>
+            <parameter name="stopTrackingAtDistance" type="numeric">20</parameter>
+            <parameter name="rWindowHistoryTime" type="numeric">10</parameter>
+            <parameter name="dodgePullDistance" type="numeric">20</parameter>
+            <parameter name="dodgePassDistance" type="numeric">20</parameter>
+            <parameter name="dodgeDeltaR" type="numeric">5</parameter><!--parameter name="dodgeDeltaPhi" type="numeric">0.7854</parameter--><!-- deltaPhi should be pi/4 which requires higher precision -->
+            <parameter name="approachingPressure" type="numeric">70</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>pipetteCleaner</id>
+         <class>PipetteCleaner</class>
+         <constructorParameters>
+            <parameter type="reference">autopatcher</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="drawbackPosition" type="numeric">-30.6934</parameter>
+            <parameter name="alconoxPosition" type="numeric">[-30.6934,21708.0371,2931.2207]</parameter>
+            <parameter name="acsfPosition" type="numeric">[-30.6934,21708.0371,2931.2207]</parameter>
+            <parameter name="turretCalibrationPosition" type="numeric">[0,0,0]</parameter>
+         </properties>
+      </element>
+      <element>
+         <id>modelParameters</id>
+         <class>GuiModel</class>
+         <constructorParameters>
+            <parameter type="reference">microscope</parameter>
+         </constructorParameters>
+         <properties>
+            <parameter name="fileDialogLocation" type="char"></parameter>
+            <parameter name="generalParameters" type="reference">generalParameters</parameter>
+            <parameter name="autopatcher" type="reference">autopatcher</parameter>
+            <parameter name="visualPatcher" type="reference">visualPatcher</parameter>
+            <parameter name="rsImprover" type="reference">rsImprover</parameter>
+            <parameter name="pipetteCleaner" type="reference">pipetteCleaner</parameter>
+         </properties>
+      </element>
+   </elements>
+</model>

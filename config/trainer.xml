@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+   <returnIDs>
+      <returnID>trainerModel</returnID>
+   </returnIDs>
+   <elements>
+      <element>
+         <id>trainerModel</id>
+         <class>Manual3DTrainerModel</class>
+         <properties>
+            <parameter name="boxSize" type="numeric">[301,301,7]</parameter>
+         </properties>
+      </element>
+   </elements>
+</model>

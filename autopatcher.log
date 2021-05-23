@@ -1,0 +1,1200 @@
+2021-03-27 12:39:55,108 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-03-27 12:39:57,454 TRACE AmplifierSimulator.startup - startup called
+2021-03-27 20:54:11,896 ERROR mainfigure_CloseRequestFcn - Error while closing window: Property assignment is not allowed when the object is empty.  Use subscripted assignment to create an array element.
+2021-03-31 10:21:01,602 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-03-31 10:21:04,082 TRACE AmplifierSimulator.startup - startup called
+2021-03-31 10:24:46,557 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-03-31 10:24:48,280 TRACE AmplifierSimulator.startup - startup called
+2021-03-31 10:26:42,944 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-03-31 10:26:44,739 TRACE AmplifierSimulator.startup - startup called
+2021-03-31 10:26:59,975 TRACE startLiveView - Starting live view
+2021-03-31 10:31:36,331 INFO GuiModel.set.sampleTop - Sample top position set to: 50
+2021-03-31 10:33:57,360 DEBUG clickPatchClamp - Starting targeted patch-clamping caused by click in live view at 127.2319     -37.21858             0, pixel positions xy: 1106.3641, 323.6399
+2021-03-31 10:34:11,162 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-03-31 10:34:11,170 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-03-31 10:34:11,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-03-31 10:34:11,203 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:11,709 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-03-31 10:34:11,712 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:12,200 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-03-31 10:34:12,203 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:12,229 DEBUG VisualLogger.vpSubphaseChangeCb - Logging image at VP startup.
+2021-03-31 10:34:12,232 TRACE VisualLogger.log - Logging image with name: 2021-03-31_10-34-12,231_VP_starting.png
+2021-03-31 10:34:12,711 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-03-31 10:34:12,715 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:13,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-03-31 10:34:13,204 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:13,269 DEBUG PipetteController.executeSmartMoveToSteps - executing: 91.463 NaN NaN, speed: slow
+2021-03-31 10:34:13,272 TRACE PipetteController.moveTo - Moving pipette X to 91.463
+2021-03-31 10:34:13,276 DEBUG PipetteController.executeSmartMoveToSteps - executing: NaN 14.6888 -20.3822, speed: fast
+2021-03-31 10:34:13,279 TRACE PipetteController.moveTo - Moving pipette Y to 14.6888
+2021-03-31 10:34:13,284 TRACE PipetteController.moveTo - Moving pipette Z to -20.3822
+2021-03-31 10:34:13,288 DEBUG PipetteController.executeSmartMoveToSteps - executing: 54.245 NaN NaN, speed: fast
+2021-03-31 10:34:13,291 TRACE PipetteController.moveTo - Moving pipette X to 54.245
+2021-03-31 10:34:13,701 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-03-31 10:34:13,703 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:13,708 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-03-31 10:34:15,927 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-03-31 10:34:15,983 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:15,984 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:15,987 TRACE VisualPatcher.checkTrackingDistance - Target distance: 78.6582
+2021-03-31 10:34:15,991 TRACE VisualPatcher.performApproachingSteps - Target distance is: 78.6582
+2021-03-31 10:34:15,994 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:15,997 TRACE PipetteController.moveTo - Moving pipette X to 52.745
+2021-03-31 10:34:16,059 TRACE MicroscopeController.captureStack - 1/7 images taken, last one took 0.030273 seconds
+2021-03-31 10:34:16,079 TRACE MicroscopeController.captureStack - 2/7 images taken, last one took 0.017474 seconds
+2021-03-31 10:34:16,100 TRACE MicroscopeController.captureStack - 3/7 images taken, last one took 0.018106 seconds
+2021-03-31 10:34:16,120 TRACE MicroscopeController.captureStack - 4/7 images taken, last one took 0.01889 seconds
+2021-03-31 10:34:16,143 TRACE MicroscopeController.captureStack - 5/7 images taken, last one took 0.01936 seconds
+2021-03-31 10:34:16,165 TRACE MicroscopeController.captureStack - 6/7 images taken, last one took 0.018702 seconds
+2021-03-31 10:34:16,186 TRACE MicroscopeController.captureStack - 7/7 images taken, last one took 0.018202 seconds
+2021-03-31 10:34:16,219 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:16,221 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:16,223 TRACE VisualPatcher.checkTrackingDistance - Target distance: 77.1582
+2021-03-31 10:34:16,226 TRACE VisualPatcher.performApproachingSteps - Target distance is: 77.1582
+2021-03-31 10:34:16,229 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:16,234 TRACE PipetteController.moveTo - Moving pipette X to 51.245
+2021-03-31 10:34:16,709 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:16,712 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:16,714 TRACE VisualPatcher.checkTrackingDistance - Target distance: 75.6582
+2021-03-31 10:34:16,716 TRACE VisualPatcher.performApproachingSteps - Target distance is: 75.6582
+2021-03-31 10:34:16,718 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:16,721 TRACE PipetteController.moveTo - Moving pipette X to 49.745
+2021-03-31 10:34:17,143 TRACE CellTracker.perform2dTracking - num valid feature points: 492
+2021-03-31 10:34:17,151 TRACE CellTracker.perform2dTracking - new xy positions: 688.2012 533.1406
+2021-03-31 10:34:17,161 TRACE CellTracker.adjustPipette - -5.7988
+2021-03-31 10:34:17,162 TRACE CellTracker.adjustPipette - 13.1406
+2021-03-31 10:34:17,164 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 1.5398
+2021-03-31 10:34:17,228 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:17,230 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:17,232 TRACE VisualPatcher.checkTrackingDistance - Target distance: 74.1582
+2021-03-31 10:34:17,234 TRACE VisualPatcher.performApproachingSteps - Target distance is: 74.1582
+2021-03-31 10:34:17,236 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:17,239 TRACE PipetteController.moveTo - Moving pipette X to 48.245
+2021-03-31 10:34:17,703 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:17,705 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:17,708 TRACE VisualPatcher.checkTrackingDistance - Target distance: 72.6582
+2021-03-31 10:34:17,712 TRACE VisualPatcher.performApproachingSteps - Target distance is: 72.6582
+2021-03-31 10:34:17,715 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:17,720 TRACE PipetteController.moveTo - Moving pipette X to 46.745
+2021-03-31 10:34:18,076 TRACE CellTracker.trackingCb - Z similarity values (a,s,b): 0.069496 0.069745 0.069745
+2021-03-31 10:34:18,079 TRACE CellTracker.trackingCb - new template image: same Z
+2021-03-31 10:34:18,083 TRACE CellTracker.adjustPipette - -5.7988
+2021-03-31 10:34:18,085 TRACE CellTracker.adjustPipette - 13.1406
+2021-03-31 10:34:18,087 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 1.5398
+2021-03-31 10:34:18,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:18,203 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:18,205 TRACE VisualPatcher.checkTrackingDistance - Target distance: 71.1582
+2021-03-31 10:34:18,208 TRACE VisualPatcher.performApproachingSteps - Target distance is: 71.1582
+2021-03-31 10:34:18,210 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:18,213 TRACE PipetteController.moveTo - Moving pipette X to 45.245
+2021-03-31 10:34:18,719 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:18,721 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:18,723 TRACE VisualPatcher.checkTrackingDistance - Target distance: 69.6582
+2021-03-31 10:34:18,725 TRACE VisualPatcher.performApproachingSteps - Target distance is: 69.6582
+2021-03-31 10:34:18,727 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:18,729 TRACE PipetteController.moveTo - Moving pipette X to 43.745
+2021-03-31 10:34:19,038 TRACE CellTracker.adjustPipette - -5.7988
+2021-03-31 10:34:19,040 TRACE CellTracker.adjustPipette - 13.1406
+2021-03-31 10:34:19,042 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 1.5398
+2021-03-31 10:34:19,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:19,203 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:19,206 TRACE VisualPatcher.checkTrackingDistance - Target distance: 68.1582
+2021-03-31 10:34:19,208 TRACE VisualPatcher.performApproachingSteps - Target distance is: 68.1582
+2021-03-31 10:34:19,210 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:19,212 TRACE PipetteController.moveTo - Moving pipette X to 42.245
+2021-03-31 10:34:19,702 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:19,704 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:19,706 TRACE VisualPatcher.checkTrackingDistance - Target distance: 66.6582
+2021-03-31 10:34:19,708 TRACE VisualPatcher.performApproachingSteps - Target distance is: 66.6582
+2021-03-31 10:34:19,710 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:19,713 TRACE PipetteController.moveTo - Moving pipette X to 40.745
+2021-03-31 10:34:20,093 TRACE CellTracker.adjustPipette - -5.7988
+2021-03-31 10:34:20,110 TRACE CellTracker.adjustPipette - 13.1406
+2021-03-31 10:34:20,112 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 1.5398
+2021-03-31 10:34:20,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:20,205 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:20,210 TRACE VisualPatcher.checkTrackingDistance - Target distance: 65.1582
+2021-03-31 10:34:20,217 TRACE VisualPatcher.performApproachingSteps - Target distance is: 65.1582
+2021-03-31 10:34:20,220 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:20,229 TRACE PipetteController.moveTo - Moving pipette X to 39.245
+2021-03-31 10:34:20,700 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:20,702 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:20,703 TRACE VisualPatcher.checkTrackingDistance - Target distance: 63.6582
+2021-03-31 10:34:20,705 TRACE VisualPatcher.performApproachingSteps - Target distance is: 63.6582
+2021-03-31 10:34:20,707 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:20,709 TRACE PipetteController.moveTo - Moving pipette X to 37.745
+2021-03-31 10:34:21,183 TRACE MicroscopeController.captureStack - 1/7 images taken, last one took 0.19181 seconds
+2021-03-31 10:34:21,220 TRACE MicroscopeController.captureStack - 2/7 images taken, last one took 0.020947 seconds
+2021-03-31 10:34:21,242 TRACE MicroscopeController.captureStack - 3/7 images taken, last one took 0.01903 seconds
+2021-03-31 10:34:21,264 TRACE MicroscopeController.captureStack - 4/7 images taken, last one took 0.018799 seconds
+2021-03-31 10:34:21,281 TRACE MicroscopeController.captureStack - 5/7 images taken, last one took 0.015641 seconds
+2021-03-31 10:34:21,298 TRACE MicroscopeController.captureStack - 6/7 images taken, last one took 0.015066 seconds
+2021-03-31 10:34:21,315 TRACE MicroscopeController.captureStack - 7/7 images taken, last one took 0.014995 seconds
+2021-03-31 10:34:21,370 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:21,373 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:21,376 TRACE VisualPatcher.checkTrackingDistance - Target distance: 62.1582
+2021-03-31 10:34:21,382 TRACE VisualPatcher.performApproachingSteps - Target distance is: 62.1582
+2021-03-31 10:34:21,384 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:21,392 TRACE PipetteController.moveTo - Moving pipette X to 36.245
+2021-03-31 10:34:21,707 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:21,709 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:21,710 TRACE VisualPatcher.checkTrackingDistance - Target distance: 60.6582
+2021-03-31 10:34:21,712 TRACE VisualPatcher.performApproachingSteps - Target distance is: 60.6582
+2021-03-31 10:34:21,713 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:21,715 TRACE PipetteController.moveTo - Moving pipette X to 34.745
+2021-03-31 10:34:22,031 TRACE CellTracker.perform2dTracking - num valid feature points: 440
+2021-03-31 10:34:22,036 TRACE CellTracker.perform2dTracking - new xy positions: 683.4277 541.9846
+2021-03-31 10:34:22,050 TRACE CellTracker.adjustPipette - -10.5723
+2021-03-31 10:34:22,053 TRACE CellTracker.adjustPipette - 21.9846
+2021-03-31 10:34:22,058 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.5908
+2021-03-31 10:34:22,199 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:22,200 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:22,202 TRACE VisualPatcher.checkTrackingDistance - Target distance: 59.1582
+2021-03-31 10:34:22,203 TRACE VisualPatcher.performApproachingSteps - Target distance is: 59.1582
+2021-03-31 10:34:22,205 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:22,207 TRACE PipetteController.moveTo - Moving pipette X to 33.245
+2021-03-31 10:34:22,775 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:22,777 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:22,779 TRACE VisualPatcher.checkTrackingDistance - Target distance: 57.6582
+2021-03-31 10:34:22,781 TRACE VisualPatcher.performApproachingSteps - Target distance is: 57.6582
+2021-03-31 10:34:22,782 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:22,784 TRACE PipetteController.moveTo - Moving pipette X to 31.745
+2021-03-31 10:34:23,113 TRACE CellTracker.trackingCb - Z similarity values (a,s,b): 0.088184 0.088184 0.088184
+2021-03-31 10:34:23,114 TRACE CellTracker.trackingCb - new template image: same Z
+2021-03-31 10:34:23,117 TRACE CellTracker.adjustPipette - -10.5723
+2021-03-31 10:34:23,119 TRACE CellTracker.adjustPipette - 21.9846
+2021-03-31 10:34:23,120 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.5908
+2021-03-31 10:34:23,212 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:23,214 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:23,216 TRACE VisualPatcher.checkTrackingDistance - Target distance: 56.1582
+2021-03-31 10:34:23,218 TRACE VisualPatcher.performApproachingSteps - Target distance is: 56.1582
+2021-03-31 10:34:23,219 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:23,221 TRACE PipetteController.moveTo - Moving pipette X to 30.245
+2021-03-31 10:34:23,713 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:23,714 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:23,716 TRACE VisualPatcher.checkTrackingDistance - Target distance: 54.6582
+2021-03-31 10:34:23,718 TRACE VisualPatcher.performApproachingSteps - Target distance is: 54.6582
+2021-03-31 10:34:23,720 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:23,722 TRACE PipetteController.moveTo - Moving pipette X to 28.745
+2021-03-31 10:34:24,000 TRACE CellTracker.perform2dTracking - num valid feature points: 522
+2021-03-31 10:34:24,002 TRACE CellTracker.perform2dTracking - new xy positions: 676.8239 536.8297
+2021-03-31 10:34:24,006 TRACE CellTracker.adjustPipette - -17.1761
+2021-03-31 10:34:24,008 TRACE CellTracker.adjustPipette - 16.8297
+2021-03-31 10:34:24,010 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.2458
+2021-03-31 10:34:24,199 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:24,201 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:24,202 TRACE VisualPatcher.checkTrackingDistance - Target distance: 53.1582
+2021-03-31 10:34:24,204 TRACE VisualPatcher.performApproachingSteps - Target distance is: 53.1582
+2021-03-31 10:34:24,205 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:24,208 TRACE PipetteController.moveTo - Moving pipette X to 27.245
+2021-03-31 10:34:24,714 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:24,715 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:24,718 TRACE VisualPatcher.checkTrackingDistance - Target distance: 51.6582
+2021-03-31 10:34:24,720 TRACE VisualPatcher.performApproachingSteps - Target distance is: 51.6582
+2021-03-31 10:34:24,721 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:24,723 TRACE PipetteController.moveTo - Moving pipette X to 25.745
+2021-03-31 10:34:24,968 TRACE CellTracker.perform2dTracking - num valid feature points: 463
+2021-03-31 10:34:24,970 TRACE CellTracker.perform2dTracking - new xy positions: 672.9465 534.3198
+2021-03-31 10:34:24,973 TRACE CellTracker.adjustPipette - -21.0535
+2021-03-31 10:34:24,975 TRACE CellTracker.adjustPipette - 14.3198
+2021-03-31 10:34:24,977 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.1996
+2021-03-31 10:34:25,199 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:25,201 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:25,203 TRACE VisualPatcher.checkTrackingDistance - Target distance: 50.1582
+2021-03-31 10:34:25,205 TRACE VisualPatcher.performApproachingSteps - Target distance is: 50.1582
+2021-03-31 10:34:25,208 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:25,211 TRACE PipetteController.moveTo - Moving pipette X to 24.245
+2021-03-31 10:34:25,705 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:25,708 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:25,710 TRACE VisualPatcher.checkTrackingDistance - Target distance: 48.6582
+2021-03-31 10:34:25,712 TRACE VisualPatcher.performApproachingSteps - Target distance is: 48.6582
+2021-03-31 10:34:25,713 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:25,715 TRACE PipetteController.moveTo - Moving pipette X to 22.745
+2021-03-31 10:34:25,945 TRACE MicroscopeController.captureStack - 1/7 images taken, last one took 0.012847 seconds
+2021-03-31 10:34:25,959 TRACE MicroscopeController.captureStack - 2/7 images taken, last one took 0.012547 seconds
+2021-03-31 10:34:25,974 TRACE MicroscopeController.captureStack - 3/7 images taken, last one took 0.012854 seconds
+2021-03-31 10:34:25,990 TRACE MicroscopeController.captureStack - 4/7 images taken, last one took 0.013347 seconds
+2021-03-31 10:34:26,006 TRACE MicroscopeController.captureStack - 5/7 images taken, last one took 0.014333 seconds
+2021-03-31 10:34:26,022 TRACE MicroscopeController.captureStack - 6/7 images taken, last one took 0.013577 seconds
+2021-03-31 10:34:26,038 TRACE MicroscopeController.captureStack - 7/7 images taken, last one took 0.014227 seconds
+2021-03-31 10:34:26,208 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:26,210 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:26,212 TRACE VisualPatcher.checkTrackingDistance - Target distance: 47.1582
+2021-03-31 10:34:26,215 TRACE VisualPatcher.performApproachingSteps - Target distance is: 47.1582
+2021-03-31 10:34:26,217 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:26,218 TRACE PipetteController.moveTo - Moving pipette X to 21.245
+2021-03-31 10:34:26,712 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:26,713 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:26,715 TRACE VisualPatcher.checkTrackingDistance - Target distance: 45.6582
+2021-03-31 10:34:26,718 TRACE VisualPatcher.performApproachingSteps - Target distance is: 45.6582
+2021-03-31 10:34:26,720 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:26,722 TRACE PipetteController.moveTo - Moving pipette X to 19.745
+2021-03-31 10:34:27,056 TRACE CellTracker.adjustPipette - -21.0535
+2021-03-31 10:34:27,058 TRACE CellTracker.adjustPipette - 14.3198
+2021-03-31 10:34:27,060 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.1996
+2021-03-31 10:34:27,199 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:27,201 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:27,202 TRACE VisualPatcher.checkTrackingDistance - Target distance: 44.1582
+2021-03-31 10:34:27,204 TRACE VisualPatcher.performApproachingSteps - Target distance is: 44.1582
+2021-03-31 10:34:27,206 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:27,208 TRACE PipetteController.moveTo - Moving pipette X to 18.245
+2021-03-31 10:34:27,709 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:27,710 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:27,712 TRACE VisualPatcher.checkTrackingDistance - Target distance: 42.6582
+2021-03-31 10:34:27,714 TRACE VisualPatcher.performApproachingSteps - Target distance is: 42.6582
+2021-03-31 10:34:27,715 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:27,717 TRACE PipetteController.moveTo - Moving pipette X to 16.745
+2021-03-31 10:34:28,009 TRACE CellTracker.trackingCb - Z similarity values (a,s,b): 0.085742 0.085807 0.085071
+2021-03-31 10:34:28,011 TRACE CellTracker.trackingCb - new template image: same Z
+2021-03-31 10:34:28,013 TRACE CellTracker.adjustPipette - -21.0535
+2021-03-31 10:34:28,015 TRACE CellTracker.adjustPipette - 14.3198
+2021-03-31 10:34:28,016 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.1996
+2021-03-31 10:34:28,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:28,203 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:28,205 TRACE VisualPatcher.checkTrackingDistance - Target distance: 41.1582
+2021-03-31 10:34:28,207 TRACE VisualPatcher.performApproachingSteps - Target distance is: 41.1582
+2021-03-31 10:34:28,209 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:28,210 TRACE PipetteController.moveTo - Moving pipette X to 15.245
+2021-03-31 10:34:28,700 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:28,702 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:28,703 TRACE VisualPatcher.checkTrackingDistance - Target distance: 39.6582
+2021-03-31 10:34:28,705 TRACE VisualPatcher.performApproachingSteps - Target distance is: 39.6582
+2021-03-31 10:34:28,707 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:28,709 TRACE PipetteController.moveTo - Moving pipette X to 13.745
+2021-03-31 10:34:28,974 TRACE CellTracker.perform2dTracking - num valid feature points: 1618
+2021-03-31 10:34:28,977 TRACE CellTracker.perform2dTracking - new xy positions: 673.6275 535.1213
+2021-03-31 10:34:28,980 TRACE CellTracker.adjustPipette - -20.3725
+2021-03-31 10:34:28,982 TRACE CellTracker.adjustPipette - 15.1213
+2021-03-31 10:34:28,984 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.2318
+2021-03-31 10:34:29,206 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:29,207 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:29,209 TRACE VisualPatcher.checkTrackingDistance - Target distance: 38.1582
+2021-03-31 10:34:29,211 TRACE VisualPatcher.performApproachingSteps - Target distance is: 38.1582
+2021-03-31 10:34:29,212 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:29,215 TRACE PipetteController.moveTo - Moving pipette X to 12.245
+2021-03-31 10:34:29,710 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:29,711 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:29,713 TRACE VisualPatcher.checkTrackingDistance - Target distance: 36.6582
+2021-03-31 10:34:29,715 TRACE VisualPatcher.performApproachingSteps - Target distance is: 36.6582
+2021-03-31 10:34:29,717 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:29,719 TRACE PipetteController.moveTo - Moving pipette X to 10.745
+2021-03-31 10:34:30,009 TRACE CellTracker.adjustPipette - -20.3725
+2021-03-31 10:34:30,010 TRACE CellTracker.adjustPipette - 15.1213
+2021-03-31 10:34:30,012 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.2318
+2021-03-31 10:34:30,200 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:30,202 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:30,204 TRACE VisualPatcher.checkTrackingDistance - Target distance: 35.1582
+2021-03-31 10:34:30,205 TRACE VisualPatcher.performApproachingSteps - Target distance is: 35.1582
+2021-03-31 10:34:30,207 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:30,208 TRACE PipetteController.moveTo - Moving pipette X to 9.245
+2021-03-31 10:34:30,708 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:30,710 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:30,712 TRACE VisualPatcher.checkTrackingDistance - Target distance: 33.6582
+2021-03-31 10:34:30,714 TRACE VisualPatcher.performApproachingSteps - Target distance is: 33.6582
+2021-03-31 10:34:30,716 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:30,717 TRACE PipetteController.moveTo - Moving pipette X to 7.745
+2021-03-31 10:34:30,942 TRACE MicroscopeController.captureStack - 1/7 images taken, last one took 0.010997 seconds
+2021-03-31 10:34:30,957 TRACE MicroscopeController.captureStack - 2/7 images taken, last one took 0.01289 seconds
+2021-03-31 10:34:30,972 TRACE MicroscopeController.captureStack - 3/7 images taken, last one took 0.012661 seconds
+2021-03-31 10:34:30,987 TRACE MicroscopeController.captureStack - 4/7 images taken, last one took 0.013092 seconds
+2021-03-31 10:34:31,006 TRACE MicroscopeController.captureStack - 5/7 images taken, last one took 0.016331 seconds
+2021-03-31 10:34:31,023 TRACE MicroscopeController.captureStack - 6/7 images taken, last one took 0.014532 seconds
+2021-03-31 10:34:31,038 TRACE MicroscopeController.captureStack - 7/7 images taken, last one took 0.013143 seconds
+2021-03-31 10:34:31,199 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:31,201 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:31,203 TRACE VisualPatcher.checkTrackingDistance - Target distance: 32.1582
+2021-03-31 10:34:31,206 TRACE VisualPatcher.performApproachingSteps - Target distance is: 32.1582
+2021-03-31 10:34:31,208 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:31,211 TRACE PipetteController.moveTo - Moving pipette X to 6.245
+2021-03-31 10:34:31,713 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:31,715 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:31,717 TRACE VisualPatcher.checkTrackingDistance - Target distance: 30.6582
+2021-03-31 10:34:31,719 TRACE VisualPatcher.performApproachingSteps - Target distance is: 30.6582
+2021-03-31 10:34:31,721 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:31,723 TRACE PipetteController.moveTo - Moving pipette X to 4.745
+2021-03-31 10:34:32,035 TRACE CellTracker.perform2dTracking - num valid feature points: 959
+2021-03-31 10:34:32,056 TRACE CellTracker.perform2dTracking - new xy positions: 677.4986 540.3024
+2021-03-31 10:34:32,071 TRACE CellTracker.adjustPipette - -16.5014
+2021-03-31 10:34:32,074 TRACE CellTracker.adjustPipette - 20.3024
+2021-03-31 10:34:32,076 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.5606
+2021-03-31 10:34:32,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:32,205 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:32,212 TRACE VisualPatcher.checkTrackingDistance - Target distance: 29.1582
+2021-03-31 10:34:32,215 TRACE VisualPatcher.performApproachingSteps - Target distance is: 29.1582
+2021-03-31 10:34:32,218 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:32,228 TRACE PipetteController.moveTo - Moving pipette X to 3.245
+2021-03-31 10:34:32,708 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:32,709 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:32,711 TRACE VisualPatcher.checkTrackingDistance - Target distance: 27.6582
+2021-03-31 10:34:32,712 TRACE VisualPatcher.performApproachingSteps - Target distance is: 27.6582
+2021-03-31 10:34:32,714 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:32,715 TRACE PipetteController.moveTo - Moving pipette X to 1.745
+2021-03-31 10:34:33,107 TRACE CellTracker.trackingCb - Z similarity values (a,s,b): 0.097747 0.089116 0.089116
+2021-03-31 10:34:33,110 TRACE CellTracker.trackingCb - new template image: same Z
+2021-03-31 10:34:33,112 TRACE CellTracker.adjustPipette - -16.5014
+2021-03-31 10:34:33,114 TRACE CellTracker.adjustPipette - 20.3024
+2021-03-31 10:34:33,115 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.5606
+2021-03-31 10:34:33,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:33,202 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:33,204 TRACE VisualPatcher.checkTrackingDistance - Target distance: 26.1582
+2021-03-31 10:34:33,207 TRACE VisualPatcher.performApproachingSteps - Target distance is: 26.1582
+2021-03-31 10:34:33,208 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:33,211 TRACE PipetteController.moveTo - Moving pipette X to 0.24501
+2021-03-31 10:34:33,704 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:33,706 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:33,708 TRACE VisualPatcher.checkTrackingDistance - Target distance: 24.6582
+2021-03-31 10:34:33,709 TRACE VisualPatcher.performApproachingSteps - Target distance is: 24.6582
+2021-03-31 10:34:33,711 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:33,713 TRACE PipetteController.moveTo - Moving pipette X to -1.255
+2021-03-31 10:34:33,982 TRACE CellTracker.perform2dTracking - num valid feature points: 217
+2021-03-31 10:34:33,984 TRACE CellTracker.perform2dTracking - new xy positions: 685.209 541.3666
+2021-03-31 10:34:33,987 TRACE CellTracker.adjustPipette - -8.791
+2021-03-31 10:34:33,989 TRACE CellTracker.adjustPipette - 21.3666
+2021-03-31 10:34:33,991 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.4939
+2021-03-31 10:34:34,201 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:34,202 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:34,204 TRACE VisualPatcher.checkTrackingDistance - Target distance: 23.1582
+2021-03-31 10:34:34,206 TRACE VisualPatcher.performApproachingSteps - Target distance is: 23.1582
+2021-03-31 10:34:34,208 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:34,210 TRACE PipetteController.moveTo - Moving pipette X to -2.755
+2021-03-31 10:34:34,699 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:34,701 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:34,702 TRACE VisualPatcher.checkTrackingDistance - Target distance: 21.6582
+2021-03-31 10:34:34,704 TRACE VisualPatcher.performApproachingSteps - Target distance is: 21.6582
+2021-03-31 10:34:34,706 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:34,709 TRACE PipetteController.moveTo - Moving pipette X to -4.255
+2021-03-31 10:34:34,977 TRACE CellTracker.adjustPipette - -8.791
+2021-03-31 10:34:34,978 TRACE CellTracker.adjustPipette - 21.3666
+2021-03-31 10:34:34,981 TRACE CellTracker.adjustPipette - Tracking, (pipette) distance is: 2.4939
+2021-03-31 10:34:35,208 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:35,210 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:35,213 TRACE VisualPatcher.checkTrackingDistance - Target distance: 20.1582
+2021-03-31 10:34:35,214 TRACE VisualPatcher.performApproachingSteps - Target distance is: 20.1582
+2021-03-31 10:34:35,215 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:35,217 TRACE PipetteController.moveTo - Moving pipette X to -5.755
+2021-03-31 10:34:35,700 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:35,701 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:35,703 TRACE VisualPatcher.checkTrackingDistance - Target distance: 18.6582
+2021-03-31 10:34:35,708 INFO VisualPatcher.checkTrackingDistance - Tracking stopped, wish you the best!
+2021-03-31 10:34:35,724 DEBUG VisualPatcher.checkTrackingDistance - Could not get pipette X position. Trying again in the next timer tick. Error: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-03-31 10:34:35,726 TRACE VisualPatcher.performApproachingSteps - Target distance is: 18.6582
+2021-03-31 10:34:35,728 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:35,729 TRACE PipetteController.moveTo - Moving pipette X to -7.255
+2021-03-31 10:34:36,200 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:36,202 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:36,203 TRACE VisualPatcher.checkTrackingDistance - Target distance: 17.1582
+2021-03-31 10:34:36,206 TRACE VisualPatcher.performApproachingSteps - Target distance is: 17.1582
+2021-03-31 10:34:36,208 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:36,210 TRACE PipetteController.moveTo - Moving pipette X to -8.755
+2021-03-31 10:34:36,699 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:36,700 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:36,702 TRACE VisualPatcher.checkTrackingDistance - Target distance: 15.6582
+2021-03-31 10:34:36,703 TRACE VisualPatcher.performApproachingSteps - Target distance is: 15.6582
+2021-03-31 10:34:36,705 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:36,708 TRACE PipetteController.moveTo - Moving pipette X to -10.255
+2021-03-31 10:34:37,204 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:37,225 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:37,230 TRACE VisualPatcher.checkTrackingDistance - Target distance: 14.1582
+2021-03-31 10:34:37,235 TRACE VisualPatcher.performApproachingSteps - Target distance is: 14.1582
+2021-03-31 10:34:37,238 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:37,246 TRACE PipetteController.moveTo - Moving pipette X to -11.755
+2021-03-31 10:34:37,705 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:37,708 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:37,710 TRACE VisualPatcher.checkTrackingDistance - Target distance: 12.6582
+2021-03-31 10:34:37,711 TRACE VisualPatcher.performApproachingSteps - Target distance is: 12.6582
+2021-03-31 10:34:37,713 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:37,714 TRACE PipetteController.moveTo - Moving pipette X to -13.255
+2021-03-31 10:34:38,210 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:38,212 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:38,214 TRACE VisualPatcher.checkTrackingDistance - Target distance: 11.1582
+2021-03-31 10:34:38,216 TRACE VisualPatcher.performApproachingSteps - Target distance is: 11.1582
+2021-03-31 10:34:38,218 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:38,219 TRACE PipetteController.moveTo - Moving pipette X to -14.755
+2021-03-31 10:34:38,714 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:38,715 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:38,717 TRACE VisualPatcher.checkTrackingDistance - Target distance: 9.6582
+2021-03-31 10:34:38,719 TRACE VisualPatcher.performApproachingSteps - Target distance is: 9.6582
+2021-03-31 10:34:38,721 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:38,724 TRACE PipetteController.moveTo - Moving pipette X to -16.255
+2021-03-31 10:34:39,199 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:39,201 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:39,201 TRACE VisualPatcher.checkTrackingDistance - Target distance: 8.1582
+2021-03-31 10:34:39,203 TRACE VisualPatcher.performApproachingSteps - Target distance is: 8.1582
+2021-03-31 10:34:39,205 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:39,208 TRACE PipetteController.moveTo - Moving pipette X to -17.755
+2021-03-31 10:34:39,707 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:39,709 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:39,711 TRACE VisualPatcher.checkTrackingDistance - Target distance: 6.6582
+2021-03-31 10:34:39,712 TRACE VisualPatcher.performApproachingSteps - Target distance is: 6.6582
+2021-03-31 10:34:39,714 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:39,716 TRACE PipetteController.moveTo - Moving pipette X to -19.255
+2021-03-31 10:34:40,200 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:40,202 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:40,203 TRACE VisualPatcher.checkTrackingDistance - Target distance: 5.1582
+2021-03-31 10:34:40,205 TRACE VisualPatcher.performApproachingSteps - Target distance is: 5.1582
+2021-03-31 10:34:40,207 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:40,209 TRACE PipetteController.moveTo - Moving pipette X to -20.755
+2021-03-31 10:34:40,703 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:40,705 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:40,707 TRACE VisualPatcher.checkTrackingDistance - Target distance: 3.6582
+2021-03-31 10:34:40,709 TRACE VisualPatcher.performApproachingSteps - Target distance is: 3.6582
+2021-03-31 10:34:40,711 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:40,713 TRACE PipetteController.moveTo - Moving pipette X to -22.255
+2021-03-31 10:34:41,207 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:41,209 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:41,211 TRACE VisualPatcher.checkTrackingDistance - Target distance: 2.1582
+2021-03-31 10:34:41,214 TRACE VisualPatcher.performApproachingSteps - Target distance is: 2.1582
+2021-03-31 10:34:41,216 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:41,218 TRACE PipetteController.moveTo - Moving pipette X to -23.755
+2021-03-31 10:34:41,711 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:41,712 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:41,714 TRACE VisualPatcher.checkTrackingDistance - Target distance: 0.65818
+2021-03-31 10:34:41,716 TRACE VisualPatcher.performApproachingSteps - Target distance is: 0.65818
+2021-03-31 10:34:41,717 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-03-31 10:34:41,720 TRACE PipetteController.moveTo - Moving pipette X to -24.4132
+2021-03-31 10:34:42,200 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-03-31 10:34:42,202 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:42,205 TRACE VisualPatcher.checkTrackingDistance - Target distance: 0
+2021-03-31 10:34:42,207 TRACE VisualPatcher.performApproachingSteps - Target distance is: 0
+2021-03-31 10:34:42,208 TRACE VisualPatcher.performApproachingSteps - Switching to phase 2
+2021-03-31 10:34:42,211 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-03-31 10:34:42,704 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 2
+2021-03-31 10:34:42,706 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:42,710 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-03-31 10:34:43,199 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 3
+2021-03-31 10:34:43,201 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-03-31 10:34:43,209 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-03-31 10:34:43,217 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-03-31 10:34:43,222 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-03-31 10:34:43,226 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-03-31 10:34:43,247 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-03-31 10:34:43,252 INFO AutoPatcher.startFromPhase - Starting blind patcher from phase: 1
+2021-03-31 10:34:43,283 TRACE AutoPatcher.timerFcn - phase = 1, resistance = NaN
+2021-03-31 10:34:43,294 TRACE AmplifierSimulator.setup - setup called
+2021-03-31 10:34:43,299 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-03-31 10:34:43,314 DEBUG VisualLogger.apStatusChangeCb - Logging image due to AP status change.
+2021-03-31 10:34:43,317 TRACE VisualLogger.log - Logging image with name: 2021-03-31_10-34-43,316_AP_hunting.png
+2021-03-31 10:34:44,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:45,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:45,264 TRACE PipetteController.moveTo - Moving pipette Z to -18.3822
+2021-03-31 10:34:46,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:46,262 TRACE PipetteController.moveTo - Moving pipette Z to -16.3822
+2021-03-31 10:34:47,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:47,262 TRACE PipetteController.moveTo - Moving pipette Z to -14.3822
+2021-03-31 10:34:48,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:48,261 TRACE PipetteController.moveTo - Moving pipette Z to -12.3822
+2021-03-31 10:34:49,260 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:49,266 TRACE PipetteController.moveTo - Moving pipette Z to -10.3822
+2021-03-31 10:34:50,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:50,259 TRACE PipetteController.moveTo - Moving pipette Z to -8.3822
+2021-03-31 10:34:51,261 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:51,263 TRACE PipetteController.moveTo - Moving pipette Z to -6.3822
+2021-03-31 10:34:52,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:52,259 TRACE PipetteController.moveTo - Moving pipette Z to -4.3822
+2021-03-31 10:34:53,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:53,259 TRACE PipetteController.moveTo - Moving pipette Z to -2.3822
+2021-03-31 10:34:54,259 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:54,261 TRACE PipetteController.moveTo - Moving pipette Z to -0.38222
+2021-03-31 10:34:55,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:55,258 TRACE PipetteController.moveTo - Moving pipette Z to 1.6178
+2021-03-31 10:34:56,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:56,261 TRACE PipetteController.moveTo - Moving pipette Z to 3.6178
+2021-03-31 10:34:57,259 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:57,261 TRACE PipetteController.moveTo - Moving pipette Z to 5.6178
+2021-03-31 10:34:58,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:58,260 TRACE PipetteController.moveTo - Moving pipette Z to 7.6178
+2021-03-31 10:34:59,263 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:34:59,291 TRACE PipetteController.moveTo - Moving pipette Z to 9.6178
+2021-03-31 10:35:00,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:00,260 TRACE PipetteController.moveTo - Moving pipette Z to 11.6178
+2021-03-31 10:35:01,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:01,261 TRACE PipetteController.moveTo - Moving pipette Z to 13.6178
+2021-03-31 10:35:02,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:02,258 TRACE PipetteController.moveTo - Moving pipette Z to 15.6178
+2021-03-31 10:35:03,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:03,258 TRACE PipetteController.moveTo - Moving pipette Z to 17.6178
+2021-03-31 10:35:04,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:04,258 TRACE PipetteController.moveTo - Moving pipette Z to 19.6178
+2021-03-31 10:35:05,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:05,258 TRACE PipetteController.moveTo - Moving pipette Z to 21.6178
+2021-03-31 10:35:06,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:06,258 TRACE PipetteController.moveTo - Moving pipette Z to 23.6178
+2021-03-31 10:35:07,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:07,259 TRACE PipetteController.moveTo - Moving pipette Z to 25.6178
+2021-03-31 10:35:08,261 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:08,263 TRACE PipetteController.moveTo - Moving pipette Z to 27.6178
+2021-03-31 10:35:09,259 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:09,262 TRACE PipetteController.moveTo - Moving pipette Z to 29.6178
+2021-03-31 10:35:10,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:10,259 TRACE PipetteController.moveTo - Moving pipette Z to 31.6178
+2021-03-31 10:35:11,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:11,258 TRACE PipetteController.moveTo - Moving pipette Z to 33.6178
+2021-03-31 10:35:12,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:12,258 TRACE PipetteController.moveTo - Moving pipette Z to 35.6178
+2021-03-31 10:35:13,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:13,259 TRACE PipetteController.moveTo - Moving pipette Z to 37.6178
+2021-03-31 10:35:14,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:14,259 TRACE PipetteController.moveTo - Moving pipette Z to 39.6178
+2021-03-31 10:35:15,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:15,259 TRACE PipetteController.moveTo - Moving pipette Z to 41.6178
+2021-03-31 10:35:16,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:16,259 TRACE PipetteController.moveTo - Moving pipette Z to 43.6178
+2021-03-31 10:35:17,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:17,259 TRACE PipetteController.moveTo - Moving pipette Z to 45.6178
+2021-03-31 10:35:18,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:18,259 TRACE PipetteController.moveTo - Moving pipette Z to 47.6178
+2021-03-31 10:35:19,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:19,258 TRACE PipetteController.moveTo - Moving pipette Z to 49.6178
+2021-03-31 10:35:20,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:20,259 TRACE PipetteController.moveTo - Moving pipette Z to 51.6178
+2021-03-31 10:35:21,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:21,261 TRACE PipetteController.moveTo - Moving pipette Z to 53.6178
+2021-03-31 10:35:22,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:22,259 TRACE PipetteController.moveTo - Moving pipette Z to 55.6178
+2021-03-31 10:35:23,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:23,258 TRACE PipetteController.moveTo - Moving pipette Z to 57.6178
+2021-03-31 10:35:24,260 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:24,263 TRACE PipetteController.moveTo - Moving pipette Z to 59.6178
+2021-03-31 10:35:25,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:25,259 TRACE PipetteController.moveTo - Moving pipette Z to 61.6178
+2021-03-31 10:35:26,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:26,260 TRACE PipetteController.moveTo - Moving pipette Z to 63.6178
+2021-03-31 10:35:27,260 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:27,263 TRACE PipetteController.moveTo - Moving pipette Z to 65.6178
+2021-03-31 10:35:28,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:28,258 TRACE PipetteController.moveTo - Moving pipette Z to 67.6178
+2021-03-31 10:35:29,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:29,260 TRACE PipetteController.moveTo - Moving pipette Z to 69.6178
+2021-03-31 10:35:30,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:30,259 TRACE PipetteController.moveTo - Moving pipette Z to 71.6178
+2021-03-31 10:35:31,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:31,259 TRACE PipetteController.moveTo - Moving pipette Z to 73.6178
+2021-03-31 10:35:32,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:32,261 TRACE PipetteController.moveTo - Moving pipette Z to 75.6178
+2021-03-31 10:35:33,259 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:33,261 TRACE PipetteController.moveTo - Moving pipette Z to 77.6178
+2021-03-31 10:35:34,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:34,261 TRACE PipetteController.moveTo - Moving pipette Z to 79.6178
+2021-03-31 10:35:35,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:35,259 TRACE PipetteController.moveTo - Moving pipette Z to 81.6178
+2021-03-31 10:35:36,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:36,259 TRACE PipetteController.moveTo - Moving pipette Z to 83.6178
+2021-03-31 10:35:37,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:37,259 TRACE PipetteController.moveTo - Moving pipette Z to 85.6178
+2021-03-31 10:35:38,258 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:38,260 TRACE PipetteController.moveTo - Moving pipette Z to 87.6178
+2021-03-31 10:35:39,261 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:39,263 TRACE PipetteController.moveTo - Moving pipette Z to 89.6178
+2021-03-31 10:35:40,261 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:40,264 TRACE PipetteController.moveTo - Moving pipette Z to 91.6178
+2021-03-31 10:35:41,257 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:41,260 TRACE PipetteController.moveTo - Moving pipette Z to 93.6178
+2021-03-31 10:35:42,256 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-03-31 10:35:42,259 TRACE PipetteController.moveTo - Moving pipette Z to 95.6178
+2021-03-31 10:35:42,615 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-03-31 10:35:42,632 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-01 10:45:22,873 TRACE stopLiveView - Stopping live view
+2021-04-01 10:45:22,954 TRACE stopPrediction - Stopping live prediction
+2021-04-01 10:45:24,725 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-02 12:42:16,176 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-02 12:42:18,490 TRACE AmplifierSimulator.startup - startup called
+2021-04-02 12:42:30,462 TRACE startLiveView - Starting live view
+2021-04-02 12:42:43,714 TRACE stopLiveView - Stopping live view
+2021-04-02 12:42:43,732 TRACE stopPrediction - Stopping live prediction
+2021-04-02 12:42:43,994 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-05 21:17:08,449 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-05 21:17:10,765 TRACE AmplifierSimulator.startup - startup called
+2021-04-05 21:17:21,758 TRACE startLiveView - Starting live view
+2021-04-05 21:18:02,833 TRACE stopLiveView - Stopping live view
+2021-04-05 21:18:02,861 TRACE stopPrediction - Stopping live prediction
+2021-04-05 21:18:03,282 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-11 21:43:04,504 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-11 21:43:06,842 TRACE AmplifierSimulator.startup - startup called
+2021-04-11 21:43:11,071 TRACE startLiveView - Starting live view
+2021-04-11 21:44:28,602 TRACE stopLiveView - Stopping live view
+2021-04-11 21:44:28,630 TRACE stopPrediction - Stopping live prediction
+2021-04-11 21:44:28,912 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-17 15:23:56,640 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-17 15:23:58,883 TRACE AmplifierSimulator.startup - startup called
+2021-04-17 15:24:01,972 TRACE startLiveView - Starting live view
+2021-04-17 15:24:18,750 TRACE stopLiveView - Stopping live view
+2021-04-17 15:24:18,777 TRACE stopPrediction - Stopping live prediction
+2021-04-17 15:24:19,056 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-21 23:47:49,908 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-21 23:47:52,301 TRACE AmplifierSimulator.startup - startup called
+2021-04-21 23:47:57,126 TRACE startLiveView - Starting live view
+2021-04-21 23:48:10,233 INFO GuiModel.set.sampleTop - Sample top position set to: 0
+2021-04-21 23:48:15,457 DEBUG clickPatchClamp - Starting targeted patch-clamping caused by click in live view at 30.2079     -45.1474            0, pixel positions xy: 262.6778, 392.5863
+2021-04-21 23:48:27,788 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:48:27,808 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-21 23:48:27,818 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-21 23:48:27,821 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:28,317 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-21 23:48:28,319 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:28,817 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-21 23:48:28,818 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:28,841 DEBUG VisualLogger.vpSubphaseChangeCb - Logging image at VP startup.
+2021-04-21 23:48:28,844 TRACE VisualLogger.log - Logging image with name: 2021-04-21_23-48-28,843_VP_starting.png
+2021-04-21 23:48:29,321 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-21 23:48:29,322 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:29,821 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-21 23:48:29,824 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:29,894 DEBUG PipetteController.executeSmartMoveToSteps - executing: 78.81 NaN NaN, speed: fast
+2021-04-21 23:48:29,898 TRACE PipetteController.moveTo - Moving pipette X to 78.81
+2021-04-21 23:48:29,904 DEBUG PipetteController.executeSmartMoveToSteps - executing: NaN 15.7992 43.0455, speed: fast
+2021-04-21 23:48:29,908 TRACE PipetteController.moveTo - Moving pipette Y to 15.7992
+2021-04-21 23:48:29,913 TRACE PipetteController.moveTo - Moving pipette Z to 43.0455
+2021-04-21 23:48:30,315 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-21 23:48:30,316 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:30,321 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:48:32,118 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-21 23:48:32,142 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-21 23:48:32,143 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:32,145 TRACE VisualPatcher.checkTrackingDistance - Target distance: -12.8048
+2021-04-21 23:48:32,148 INFO VisualPatcher.checkTrackingDistance - Tracking stopped, wish you the best!
+2021-04-21 23:48:32,173 DEBUG VisualPatcher.checkTrackingDistance - Could not get pipette X position. Trying again in the next timer tick. Error: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:48:32,175 TRACE VisualPatcher.performApproachingSteps - Target distance is: -12.8048
+2021-04-21 23:48:32,178 TRACE VisualPatcher.performApproachingSteps - Switching to phase 2
+2021-04-21 23:48:32,180 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-21 23:48:32,316 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 2
+2021-04-21 23:48:32,317 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:32,320 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-21 23:48:32,816 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 3
+2021-04-21 23:48:32,817 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-21 23:48:32,820 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-21 23:48:32,826 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-21 23:48:32,830 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:48:32,834 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:48:32,854 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:48:32,859 INFO AutoPatcher.startFromPhase - Starting blind patcher from phase: 1
+2021-04-21 23:48:32,873 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:32,882 TRACE AmplifierSimulator.setup - setup called
+2021-04-21 23:48:32,887 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:48:32,901 DEBUG VisualLogger.apStatusChangeCb - Logging image due to AP status change.
+2021-04-21 23:48:32,904 TRACE VisualLogger.log - Logging image with name: 2021-04-21_23-48-32,903_AP_hunting.png
+2021-04-21 23:48:33,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:35,482 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:35,492 TRACE PipetteController.moveTo - Moving pipette Z to 45.0455
+2021-04-21 23:48:35,935 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:35,943 TRACE PipetteController.moveTo - Moving pipette Z to 47.0455
+2021-04-21 23:48:36,865 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:36,870 TRACE PipetteController.moveTo - Moving pipette Z to 49.0455
+2021-04-21 23:48:37,872 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:37,876 TRACE PipetteController.moveTo - Moving pipette Z to 51.0455
+2021-04-21 23:48:38,866 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:38,872 TRACE PipetteController.moveTo - Moving pipette Z to 53.0455
+2021-04-21 23:48:39,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:39,866 TRACE PipetteController.moveTo - Moving pipette Z to 55.0455
+2021-04-21 23:48:40,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:40,871 TRACE PipetteController.moveTo - Moving pipette Z to 57.0455
+2021-04-21 23:48:41,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:41,864 TRACE PipetteController.moveTo - Moving pipette Z to 59.0455
+2021-04-21 23:48:42,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:42,866 TRACE PipetteController.moveTo - Moving pipette Z to 61.0455
+2021-04-21 23:48:43,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:43,871 TRACE PipetteController.moveTo - Moving pipette Z to 63.0455
+2021-04-21 23:48:44,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:44,865 TRACE PipetteController.moveTo - Moving pipette Z to 65.0455
+2021-04-21 23:48:45,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:45,865 TRACE PipetteController.moveTo - Moving pipette Z to 67.0455
+2021-04-21 23:48:46,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:46,870 TRACE PipetteController.moveTo - Moving pipette Z to 69.0455
+2021-04-21 23:48:47,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:47,864 TRACE PipetteController.moveTo - Moving pipette Z to 71.0455
+2021-04-21 23:48:48,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:48,865 TRACE PipetteController.moveTo - Moving pipette Z to 73.0455
+2021-04-21 23:48:49,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:49,870 TRACE PipetteController.moveTo - Moving pipette Z to 75.0455
+2021-04-21 23:48:50,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:50,866 TRACE PipetteController.moveTo - Moving pipette Z to 77.0455
+2021-04-21 23:48:51,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:51,864 TRACE PipetteController.moveTo - Moving pipette Z to 79.0455
+2021-04-21 23:48:52,875 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:52,876 TRACE PipetteController.moveTo - Moving pipette Z to 81.0455
+2021-04-21 23:48:53,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:53,865 TRACE PipetteController.moveTo - Moving pipette Z to 83.0455
+2021-04-21 23:48:54,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:54,865 TRACE PipetteController.moveTo - Moving pipette Z to 85.0455
+2021-04-21 23:48:55,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:55,871 TRACE PipetteController.moveTo - Moving pipette Z to 87.0455
+2021-04-21 23:48:56,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:56,866 TRACE PipetteController.moveTo - Moving pipette Z to 89.0455
+2021-04-21 23:48:57,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:57,865 TRACE PipetteController.moveTo - Moving pipette Z to 91.0455
+2021-04-21 23:48:58,868 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:58,869 TRACE PipetteController.moveTo - Moving pipette Z to 93.0455
+2021-04-21 23:48:59,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:48:59,864 TRACE PipetteController.moveTo - Moving pipette Z to 95.0455
+2021-04-21 23:49:00,862 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:00,864 TRACE PipetteController.moveTo - Moving pipette Z to 97.0455
+2021-04-21 23:49:01,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:01,871 TRACE PipetteController.moveTo - Moving pipette Z to 99.0455
+2021-04-21 23:49:02,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:02,865 TRACE PipetteController.moveTo - Moving pipette Z to 101.0455
+2021-04-21 23:49:03,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:03,865 TRACE PipetteController.moveTo - Moving pipette Z to 103.0455
+2021-04-21 23:49:04,880 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:04,882 TRACE PipetteController.moveTo - Moving pipette Z to 105.0455
+2021-04-21 23:49:05,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:05,865 TRACE PipetteController.moveTo - Moving pipette Z to 107.0455
+2021-04-21 23:49:06,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:06,865 TRACE PipetteController.moveTo - Moving pipette Z to 109.0455
+2021-04-21 23:49:07,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:07,871 TRACE PipetteController.moveTo - Moving pipette Z to 111.0455
+2021-04-21 23:49:08,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:08,865 TRACE PipetteController.moveTo - Moving pipette Z to 113.0455
+2021-04-21 23:49:09,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:09,864 TRACE PipetteController.moveTo - Moving pipette Z to 115.0455
+2021-04-21 23:49:10,871 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:10,873 TRACE PipetteController.moveTo - Moving pipette Z to 117.0455
+2021-04-21 23:49:11,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:11,865 TRACE PipetteController.moveTo - Moving pipette Z to 119.0455
+2021-04-21 23:49:12,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:12,864 TRACE PipetteController.moveTo - Moving pipette Z to 121.0455
+2021-04-21 23:49:13,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:13,870 TRACE PipetteController.moveTo - Moving pipette Z to 123.0455
+2021-04-21 23:49:14,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:14,865 TRACE PipetteController.moveTo - Moving pipette Z to 125.0455
+2021-04-21 23:49:15,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:15,865 TRACE PipetteController.moveTo - Moving pipette Z to 127.0455
+2021-04-21 23:49:16,871 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:16,873 TRACE PipetteController.moveTo - Moving pipette Z to 129.0455
+2021-04-21 23:49:17,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:17,864 TRACE PipetteController.moveTo - Moving pipette Z to 131.0455
+2021-04-21 23:49:18,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:18,866 TRACE PipetteController.moveTo - Moving pipette Z to 133.0455
+2021-04-21 23:49:19,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:19,871 TRACE PipetteController.moveTo - Moving pipette Z to 135.0455
+2021-04-21 23:49:20,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:20,866 TRACE PipetteController.moveTo - Moving pipette Z to 137.0455
+2021-04-21 23:49:21,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:21,864 TRACE PipetteController.moveTo - Moving pipette Z to 139.0455
+2021-04-21 23:49:22,870 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:22,871 TRACE PipetteController.moveTo - Moving pipette Z to 141.0455
+2021-04-21 23:49:23,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:23,864 TRACE PipetteController.moveTo - Moving pipette Z to 143.0455
+2021-04-21 23:49:24,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:24,865 TRACE PipetteController.moveTo - Moving pipette Z to 145.0455
+2021-04-21 23:49:25,871 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:25,872 TRACE PipetteController.moveTo - Moving pipette Z to 147.0455
+2021-04-21 23:49:26,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:26,865 TRACE PipetteController.moveTo - Moving pipette Z to 149.0455
+2021-04-21 23:49:27,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:27,865 TRACE PipetteController.moveTo - Moving pipette Z to 151.0455
+2021-04-21 23:49:28,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:28,871 TRACE PipetteController.moveTo - Moving pipette Z to 153.0455
+2021-04-21 23:49:29,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:29,866 TRACE PipetteController.moveTo - Moving pipette Z to 155.0455
+2021-04-21 23:49:30,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:30,865 TRACE PipetteController.moveTo - Moving pipette Z to 157.0455
+2021-04-21 23:49:31,870 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:31,871 TRACE PipetteController.moveTo - Moving pipette Z to 159.0455
+2021-04-21 23:49:32,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:32,865 TRACE PipetteController.moveTo - Moving pipette Z to 161.0455
+2021-04-21 23:49:33,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:33,865 TRACE PipetteController.moveTo - Moving pipette Z to 163.0455
+2021-04-21 23:49:34,868 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:34,870 TRACE PipetteController.moveTo - Moving pipette Z to 165.0455
+2021-04-21 23:49:35,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:35,865 TRACE PipetteController.moveTo - Moving pipette Z to 167.0455
+2021-04-21 23:49:36,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:36,866 TRACE PipetteController.moveTo - Moving pipette Z to 169.0455
+2021-04-21 23:49:37,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:37,871 TRACE PipetteController.moveTo - Moving pipette Z to 171.0455
+2021-04-21 23:49:38,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:38,865 TRACE PipetteController.moveTo - Moving pipette Z to 173.0455
+2021-04-21 23:49:39,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:39,865 TRACE PipetteController.moveTo - Moving pipette Z to 175.0455
+2021-04-21 23:49:40,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:40,870 TRACE PipetteController.moveTo - Moving pipette Z to 177.0455
+2021-04-21 23:49:41,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:41,864 TRACE PipetteController.moveTo - Moving pipette Z to 179.0455
+2021-04-21 23:49:42,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:42,865 TRACE PipetteController.moveTo - Moving pipette Z to 181.0455
+2021-04-21 23:49:43,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:43,870 TRACE PipetteController.moveTo - Moving pipette Z to 183.0455
+2021-04-21 23:49:44,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:44,866 TRACE PipetteController.moveTo - Moving pipette Z to 185.0455
+2021-04-21 23:49:45,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:45,865 TRACE PipetteController.moveTo - Moving pipette Z to 187.0455
+2021-04-21 23:49:46,871 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:46,872 TRACE PipetteController.moveTo - Moving pipette Z to 189.0455
+2021-04-21 23:49:47,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:47,865 TRACE PipetteController.moveTo - Moving pipette Z to 191.0455
+2021-04-21 23:49:48,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:48,865 TRACE PipetteController.moveTo - Moving pipette Z to 193.0455
+2021-04-21 23:49:49,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:49,871 TRACE PipetteController.moveTo - Moving pipette Z to 195.0455
+2021-04-21 23:49:50,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:50,865 TRACE PipetteController.moveTo - Moving pipette Z to 197.0455
+2021-04-21 23:49:51,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:51,865 TRACE PipetteController.moveTo - Moving pipette Z to 199.0455
+2021-04-21 23:49:52,871 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:52,873 TRACE PipetteController.moveTo - Moving pipette Z to 201.0455
+2021-04-21 23:49:53,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:53,864 TRACE PipetteController.moveTo - Moving pipette Z to 203.0455
+2021-04-21 23:49:54,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:54,865 TRACE PipetteController.moveTo - Moving pipette Z to 205.0455
+2021-04-21 23:49:55,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:55,870 TRACE PipetteController.moveTo - Moving pipette Z to 207.0455
+2021-04-21 23:49:56,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:56,865 TRACE PipetteController.moveTo - Moving pipette Z to 209.0455
+2021-04-21 23:49:57,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:57,865 TRACE PipetteController.moveTo - Moving pipette Z to 211.0455
+2021-04-21 23:49:58,871 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:58,872 TRACE PipetteController.moveTo - Moving pipette Z to 213.0455
+2021-04-21 23:49:59,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:49:59,864 TRACE PipetteController.moveTo - Moving pipette Z to 215.0455
+2021-04-21 23:50:00,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:00,865 TRACE PipetteController.moveTo - Moving pipette Z to 217.0455
+2021-04-21 23:50:01,870 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:01,872 TRACE PipetteController.moveTo - Moving pipette Z to 219.0455
+2021-04-21 23:50:02,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:02,865 TRACE PipetteController.moveTo - Moving pipette Z to 221.0455
+2021-04-21 23:50:03,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:03,864 TRACE PipetteController.moveTo - Moving pipette Z to 223.0455
+2021-04-21 23:50:04,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:04,870 TRACE PipetteController.moveTo - Moving pipette Z to 225.0455
+2021-04-21 23:50:05,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:05,865 TRACE PipetteController.moveTo - Moving pipette Z to 227.0455
+2021-04-21 23:50:06,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:06,865 TRACE PipetteController.moveTo - Moving pipette Z to 229.0455
+2021-04-21 23:50:07,868 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:07,870 TRACE PipetteController.moveTo - Moving pipette Z to 231.0455
+2021-04-21 23:50:08,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:08,865 TRACE PipetteController.moveTo - Moving pipette Z to 233.0455
+2021-04-21 23:50:09,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:09,865 TRACE PipetteController.moveTo - Moving pipette Z to 235.0455
+2021-04-21 23:50:10,868 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:10,870 TRACE PipetteController.moveTo - Moving pipette Z to 237.0455
+2021-04-21 23:50:11,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:11,865 TRACE PipetteController.moveTo - Moving pipette Z to 239.0455
+2021-04-21 23:50:12,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:12,864 TRACE PipetteController.moveTo - Moving pipette Z to 241.0455
+2021-04-21 23:50:13,870 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:13,872 TRACE PipetteController.moveTo - Moving pipette Z to 243.0455
+2021-04-21 23:50:14,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:14,865 TRACE PipetteController.moveTo - Moving pipette Z to 245.0455
+2021-04-21 23:50:15,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:15,864 TRACE PipetteController.moveTo - Moving pipette Z to 247.0455
+2021-04-21 23:50:16,867 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:16,869 TRACE PipetteController.moveTo - Moving pipette Z to 249.0455
+2021-04-21 23:50:17,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:17,865 TRACE PipetteController.moveTo - Moving pipette Z to 251.0455
+2021-04-21 23:50:18,862 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:18,864 TRACE PipetteController.moveTo - Moving pipette Z to 253.0455
+2021-04-21 23:50:19,870 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:19,871 TRACE PipetteController.moveTo - Moving pipette Z to 255.0455
+2021-04-21 23:50:20,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:20,865 TRACE PipetteController.moveTo - Moving pipette Z to 257.0455
+2021-04-21 23:50:21,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:21,864 TRACE PipetteController.moveTo - Moving pipette Z to 259.0455
+2021-04-21 23:50:22,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:22,870 TRACE PipetteController.moveTo - Moving pipette Z to 261.0455
+2021-04-21 23:50:23,862 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:23,864 TRACE PipetteController.moveTo - Moving pipette Z to 263.0455
+2021-04-21 23:50:24,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:24,866 TRACE PipetteController.moveTo - Moving pipette Z to 265.0455
+2021-04-21 23:50:25,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:25,870 TRACE PipetteController.moveTo - Moving pipette Z to 267.0455
+2021-04-21 23:50:26,862 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:26,864 TRACE PipetteController.moveTo - Moving pipette Z to 269.0455
+2021-04-21 23:50:27,862 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:27,864 TRACE PipetteController.moveTo - Moving pipette Z to 271.0455
+2021-04-21 23:50:28,872 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:28,873 TRACE PipetteController.moveTo - Moving pipette Z to 273.0455
+2021-04-21 23:50:29,865 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:29,866 TRACE PipetteController.moveTo - Moving pipette Z to 275.0455
+2021-04-21 23:50:30,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:30,864 TRACE PipetteController.moveTo - Moving pipette Z to 277.0455
+2021-04-21 23:50:31,870 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:31,871 TRACE PipetteController.moveTo - Moving pipette Z to 279.0455
+2021-04-21 23:50:32,865 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:32,867 TRACE PipetteController.moveTo - Moving pipette Z to 281.0455
+2021-04-21 23:50:33,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:33,865 TRACE PipetteController.moveTo - Moving pipette Z to 283.0455
+2021-04-21 23:50:34,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:34,871 TRACE PipetteController.moveTo - Moving pipette Z to 285.0455
+2021-04-21 23:50:35,862 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:35,864 TRACE PipetteController.moveTo - Moving pipette Z to 287.0455
+2021-04-21 23:50:36,864 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:36,865 TRACE PipetteController.moveTo - Moving pipette Z to 289.0455
+2021-04-21 23:50:37,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:37,870 TRACE PipetteController.moveTo - Moving pipette Z to 291.0455
+2021-04-21 23:50:38,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:38,865 TRACE PipetteController.moveTo - Moving pipette Z to 293.0455
+2021-04-21 23:50:39,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:39,864 TRACE PipetteController.moveTo - Moving pipette Z to 295.0455
+2021-04-21 23:50:40,869 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:40,870 TRACE PipetteController.moveTo - Moving pipette Z to 297.0455
+2021-04-21 23:50:41,863 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-21 23:50:41,865 TRACE PipetteController.moveTo - Moving pipette Z to 299.0455
+2021-04-21 23:50:41,879 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-21 23:50:41,887 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-21 23:50:52,825 TRACE stopLiveView - Stopping live view
+2021-04-21 23:50:52,836 TRACE stopPrediction - Stopping live prediction
+2021-04-21 23:50:53,802 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-21 23:54:47,259 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-21 23:54:48,920 TRACE AmplifierSimulator.startup - startup called
+2021-04-21 23:57:49,744 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-21 23:58:05,334 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-21 23:58:07,018 TRACE AmplifierSimulator.startup - startup called
+2021-04-22 00:15:06,805 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-22 00:16:06,685 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-22 00:16:08,395 TRACE AmplifierSimulator.startup - startup called
+2021-04-22 00:16:13,665 TRACE startLiveView - Starting live view
+2021-04-22 00:16:15,052 INFO GuiModel.set.sampleTop - Sample top position set to: 0
+2021-04-22 00:16:17,179 DEBUG clickPatchClamp - Starting targeted patch-clamping caused by click in live view at 108.6831     -58.84937             0, pixel positions xy: 945.0705, 511.7337
+2021-04-22 00:16:24,424 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 00:16:41,554 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
+2021-04-22 00:16:44,105 INFO AutoPatcher.startFromPhase - Starting blind patcher from phase: 1
+2021-04-22 00:16:44,130 TRACE AutoPatcher.timerFcn - phase = 1, resistance = NaN
+2021-04-22 00:16:44,134 ERROR AutoPatcher.timerFcn - Error while communicating with pipette. Stopping blind patching.Cause: The specified key is not present in this container.
+2021-04-22 00:16:44,136 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-22 00:16:50,829 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-22 00:17:01,921 TRACE stopLiveView - Stopping live view
+2021-04-22 00:17:01,939 TRACE stopPrediction - Stopping live prediction
+2021-04-22 00:17:02,061 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-22 14:46:35,774 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-22 14:46:38,481 TRACE AmplifierSimulator.startup - startup called
+2021-04-22 14:47:29,522 TRACE startLiveView - Starting live view
+2021-04-22 14:47:31,446 INFO GuiModel.set.sampleTop - Sample top position set to: 0
+2021-04-22 14:47:34,618 DEBUG clickPatchClamp - Starting targeted patch-clamping caused by click in live view at 123.469     -37.93075             0, pixel positions xy: 1073.6432, 329.8326
+2021-04-22 14:47:48,853 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:47:48,860 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-22 14:47:48,872 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-22 14:47:48,875 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:49,382 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-22 14:47:49,385 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:49,886 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-22 14:47:49,888 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:49,914 DEBUG VisualLogger.vpSubphaseChangeCb - Logging image at VP startup.
+2021-04-22 14:47:49,917 TRACE VisualLogger.log - Logging image with name: 2021-04-22_14-47-49,916_VP_starting.png
+2021-04-22 14:47:50,376 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-22 14:47:50,378 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:50,886 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-22 14:47:50,889 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:50,947 DEBUG PipetteController.executeSmartMoveToSteps - executing: NaN 14.3289 -17.894, speed: fast
+2021-04-22 14:47:50,950 TRACE PipetteController.moveTo - Moving pipette Y to 14.3289
+2021-04-22 14:47:50,954 TRACE PipetteController.moveTo - Moving pipette Z to -17.894
+2021-04-22 14:47:51,398 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-04-22 14:47:51,400 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:51,405 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:47:53,564 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-22 14:47:53,614 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:53,615 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:53,618 TRACE VisualPatcher.checkTrackingDistance - Target distance: 19.8634
+2021-04-22 14:47:53,622 INFO VisualPatcher.checkTrackingDistance - Tracking stopped, wish you the best!
+2021-04-22 14:47:53,636 DEBUG VisualPatcher.checkTrackingDistance - Could not get pipette X position. Trying again in the next timer tick. Error: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:47:53,639 TRACE VisualPatcher.performApproachingSteps - Target distance is: 19.8634
+2021-04-22 14:47:53,641 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:53,644 TRACE PipetteController.moveTo - Moving pipette X to -1.5
+2021-04-22 14:47:53,883 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:53,884 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:53,886 TRACE VisualPatcher.checkTrackingDistance - Target distance: 18.3634
+2021-04-22 14:47:53,888 TRACE VisualPatcher.performApproachingSteps - Target distance is: 18.3634
+2021-04-22 14:47:53,890 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:53,893 TRACE PipetteController.moveTo - Moving pipette X to -3
+2021-04-22 14:47:54,400 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:54,401 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:54,403 TRACE VisualPatcher.checkTrackingDistance - Target distance: 16.8634
+2021-04-22 14:47:54,406 TRACE VisualPatcher.performApproachingSteps - Target distance is: 16.8634
+2021-04-22 14:47:54,408 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:54,410 TRACE PipetteController.moveTo - Moving pipette X to -4.5
+2021-04-22 14:47:54,874 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:54,875 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:54,877 TRACE VisualPatcher.checkTrackingDistance - Target distance: 15.3634
+2021-04-22 14:47:54,880 TRACE VisualPatcher.performApproachingSteps - Target distance is: 15.3634
+2021-04-22 14:47:54,882 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:54,886 TRACE PipetteController.moveTo - Moving pipette X to -6
+2021-04-22 14:47:55,373 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:55,374 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:55,376 TRACE VisualPatcher.checkTrackingDistance - Target distance: 13.8634
+2021-04-22 14:47:55,381 TRACE VisualPatcher.performApproachingSteps - Target distance is: 13.8634
+2021-04-22 14:47:55,383 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:55,388 TRACE PipetteController.moveTo - Moving pipette X to -7.5
+2021-04-22 14:47:55,888 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:55,889 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:55,891 TRACE VisualPatcher.checkTrackingDistance - Target distance: 12.3634
+2021-04-22 14:47:55,892 TRACE VisualPatcher.performApproachingSteps - Target distance is: 12.3634
+2021-04-22 14:47:55,893 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:55,896 TRACE PipetteController.moveTo - Moving pipette X to -9
+2021-04-22 14:47:56,381 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:56,382 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:56,384 TRACE VisualPatcher.checkTrackingDistance - Target distance: 10.8634
+2021-04-22 14:47:56,385 TRACE VisualPatcher.performApproachingSteps - Target distance is: 10.8634
+2021-04-22 14:47:56,386 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:56,388 TRACE PipetteController.moveTo - Moving pipette X to -10.5
+2021-04-22 14:47:56,880 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:56,881 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:56,882 TRACE VisualPatcher.checkTrackingDistance - Target distance: 9.3634
+2021-04-22 14:47:56,883 TRACE VisualPatcher.performApproachingSteps - Target distance is: 9.3634
+2021-04-22 14:47:56,884 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:56,885 TRACE PipetteController.moveTo - Moving pipette X to -12
+2021-04-22 14:47:57,396 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:57,398 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:57,399 TRACE VisualPatcher.checkTrackingDistance - Target distance: 7.8634
+2021-04-22 14:47:57,400 TRACE VisualPatcher.performApproachingSteps - Target distance is: 7.8634
+2021-04-22 14:47:57,401 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:57,402 TRACE PipetteController.moveTo - Moving pipette X to -13.5
+2021-04-22 14:47:57,875 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:57,876 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:57,879 TRACE VisualPatcher.checkTrackingDistance - Target distance: 6.3634
+2021-04-22 14:47:57,881 TRACE VisualPatcher.performApproachingSteps - Target distance is: 6.3634
+2021-04-22 14:47:57,882 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:57,883 TRACE PipetteController.moveTo - Moving pipette X to -15
+2021-04-22 14:47:58,373 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:58,375 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:58,376 TRACE VisualPatcher.checkTrackingDistance - Target distance: 4.8634
+2021-04-22 14:47:58,378 TRACE VisualPatcher.performApproachingSteps - Target distance is: 4.8634
+2021-04-22 14:47:58,380 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:58,381 TRACE PipetteController.moveTo - Moving pipette X to -16.5
+2021-04-22 14:47:58,887 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:58,889 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:58,890 TRACE VisualPatcher.checkTrackingDistance - Target distance: 3.3634
+2021-04-22 14:47:58,891 TRACE VisualPatcher.performApproachingSteps - Target distance is: 3.3634
+2021-04-22 14:47:58,892 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:58,893 TRACE PipetteController.moveTo - Moving pipette X to -18
+2021-04-22 14:47:59,370 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:59,372 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:59,373 TRACE VisualPatcher.checkTrackingDistance - Target distance: 1.8634
+2021-04-22 14:47:59,375 TRACE VisualPatcher.performApproachingSteps - Target distance is: 1.8634
+2021-04-22 14:47:59,375 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:59,377 TRACE PipetteController.moveTo - Moving pipette X to -19.5
+2021-04-22 14:47:59,879 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:47:59,880 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:47:59,881 TRACE VisualPatcher.checkTrackingDistance - Target distance: 0.36335
+2021-04-22 14:47:59,882 TRACE VisualPatcher.performApproachingSteps - Target distance is: 0.36335
+2021-04-22 14:47:59,883 TRACE VisualPatcher.performApproachingSteps - DodgeStep: 0, DodgePhase: 0
+2021-04-22 14:47:59,885 TRACE PipetteController.moveTo - Moving pipette X to -19.8634
+2021-04-22 14:48:00,389 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-04-22 14:48:00,390 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:48:00,392 TRACE VisualPatcher.checkTrackingDistance - Target distance: 0
+2021-04-22 14:48:00,393 TRACE VisualPatcher.performApproachingSteps - Target distance is: 0
+2021-04-22 14:48:00,395 TRACE VisualPatcher.performApproachingSteps - Switching to phase 2
+2021-04-22 14:48:00,397 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-22 14:48:00,872 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 2
+2021-04-22 14:48:00,873 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:48:00,875 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-22 14:48:01,383 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 3
+2021-04-22 14:48:01,384 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-04-22 14:48:01,388 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-22 14:48:01,392 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-04-22 14:48:01,396 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:48:01,402 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:48:01,422 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:48:01,426 INFO AutoPatcher.startFromPhase - Starting blind patcher from phase: 1
+2021-04-22 14:48:01,475 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:01,487 TRACE AmplifierSimulator.setup - setup called
+2021-04-22 14:48:01,491 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:48:01,505 DEBUG VisualLogger.apStatusChangeCb - Logging image due to AP status change.
+2021-04-22 14:48:01,507 TRACE VisualLogger.log - Logging image with name: 2021-04-22_14-48-01,506_AP_hunting.png
+2021-04-22 14:48:02,431 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:03,432 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:03,438 TRACE PipetteController.moveTo - Moving pipette Z to -15.894
+2021-04-22 14:48:04,450 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:04,455 TRACE PipetteController.moveTo - Moving pipette Z to -13.894
+2021-04-22 14:48:05,434 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:05,438 TRACE PipetteController.moveTo - Moving pipette Z to -11.894
+2021-04-22 14:48:06,431 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:06,437 TRACE PipetteController.moveTo - Moving pipette Z to -9.894
+2021-04-22 14:48:07,454 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:07,460 TRACE PipetteController.moveTo - Moving pipette Z to -7.894
+2021-04-22 14:48:08,431 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:08,433 TRACE PipetteController.moveTo - Moving pipette Z to -5.894
+2021-04-22 14:48:09,432 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:09,433 TRACE PipetteController.moveTo - Moving pipette Z to -3.894
+2021-04-22 14:48:10,455 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:10,457 TRACE PipetteController.moveTo - Moving pipette Z to -1.894
+2021-04-22 14:48:11,433 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:11,435 TRACE PipetteController.moveTo - Moving pipette Z to 0.10596
+2021-04-22 14:48:12,432 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:12,433 TRACE PipetteController.moveTo - Moving pipette Z to 2.106
+2021-04-22 14:48:13,449 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:13,451 TRACE PipetteController.moveTo - Moving pipette Z to 4.106
+2021-04-22 14:48:14,431 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-04-22 14:48:14,434 TRACE PipetteController.moveTo - Moving pipette Z to 6.106
+2021-04-22 14:48:14,860 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-22 14:48:14,868 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-04-22 14:48:21,136 TRACE stopLiveView - Stopping live view
+2021-04-22 14:48:21,149 TRACE stopPrediction - Stopping live prediction
+2021-04-22 14:48:21,314 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-23 15:34:20,625 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-23 15:34:22,901 TRACE AmplifierSimulator.startup - startup called
+2021-04-23 15:35:40,781 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-23 15:39:53,521 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-23 15:39:55,085 TRACE AmplifierSimulator.startup - startup called
+2021-04-23 15:41:44,616 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-04-23 15:45:15,623 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-04-23 15:45:17,505 TRACE AmplifierSimulator.startup - startup called
+2021-04-23 15:47:33,668 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-12 23:46:19,218 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-12 23:46:23,090 TRACE AmplifierSimulator.startup - startup called
+2021-05-12 23:46:27,515 TRACE startLiveView - Starting live view
+2021-05-12 23:46:32,925 INFO GuiModel.set.sampleTop - Sample top position set to: 0
+2021-05-12 23:46:34,580 TRACE stopLiveView - Stopping live view
+2021-05-12 23:46:34,617 TRACE stopPrediction - Stopping live prediction
+2021-05-12 23:46:34,692 TRACE MicroscopeController.captureStack - 1/6 images taken, last one took 0.027414 seconds
+2021-05-12 23:46:34,717 TRACE MicroscopeController.captureStack - 2/6 images taken, last one took 0.021517 seconds
+2021-05-12 23:46:34,737 TRACE MicroscopeController.captureStack - 3/6 images taken, last one took 0.01684 seconds
+2021-05-12 23:46:34,761 TRACE MicroscopeController.captureStack - 4/6 images taken, last one took 0.019517 seconds
+2021-05-12 23:46:34,788 TRACE MicroscopeController.captureStack - 5/6 images taken, last one took 0.020127 seconds
+2021-05-12 23:46:34,806 TRACE MicroscopeController.captureStack - 6/6 images taken, last one took 0.015083 seconds
+2021-05-12 23:47:16,605 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 11:02:36,649 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 11:38:39,150 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 11:41:04,043 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 11:41:19,212 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 12:19:49,526 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 12:25:48,385 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 12:29:19,164 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 12:31:13,333 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 14:35:00,661 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 15:26:31,735 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 15:26:34,562 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:02:03,931 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:02:28,556 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:02:31,946 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:02:39,342 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:07:55,559 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:07:58,848 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:08:32,921 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:08:57,568 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:09:01,044 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:10:24,899 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:10:49,125 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:10:52,421 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:13:40,388 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:14:03,545 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:14:06,930 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:14:18,130 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:15:06,047 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:15:09,364 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:15:17,578 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:17:38,169 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:17:41,706 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:17:52,170 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:21:01,397 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:21:04,729 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:23:00,542 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:23:37,005 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:23:40,256 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:24:19,973 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-13 16:27:41,756 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-13 16:27:44,882 TRACE AmplifierSimulator.startup - startup called
+2021-05-13 16:37:24,896 TRACE startLiveView - Starting live view
+2021-05-13 16:37:37,780 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 1008.0381      528.78214              1
+2021-05-13 16:37:37,884 TRACE PipetteController.moveTo - Moving pipette Y to -7.7967
+2021-05-13 16:37:37,890 TRACE PipetteController.moveTo - Moving pipette Z to -4.4195
+2021-05-13 16:37:37,897 TRACE PipetteController.moveTo - Moving pipette X to -8.1191
+2021-05-13 16:40:40,257 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 1000.9391      535.88111              1
+2021-05-13 16:40:40,266 TRACE PipetteController.moveTo - Moving pipette Y to -8.5338
+2021-05-13 16:40:40,273 TRACE PipetteController.moveTo - Moving pipette Z to -3.8335
+2021-05-13 16:40:40,283 TRACE PipetteController.moveTo - Moving pipette X to -7.0504
+2021-05-13 16:59:42,214 TRACE stopLiveView - Stopping live view
+2021-05-13 16:59:42,247 TRACE stopPrediction - Stopping live prediction
+2021-05-13 16:59:42,450 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-22 12:50:23,790 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-22 12:50:26,744 TRACE AmplifierSimulator.startup - startup called
+2021-05-22 12:50:50,491 INFO AutoPatcher.stopFunction - Stopping blind patcher.
