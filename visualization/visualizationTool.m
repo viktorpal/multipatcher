@@ -22,7 +22,7 @@ function varargout = visualizationTool(varargin)
 
 % Edit the above text to modify the response to help visualizationTool
 
-% Last Modified by GUIDE v2.5 13-May-2021 16:20:15
+% Last Modified by GUIDE v2.5 28-May-2021 08:43:09
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -561,3 +561,11 @@ function activePipetteId_popup_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+% --- If Enable == 'on', executes on mouse press in 5 pixel border.
+% --- Otherwise, executes on mouse press in 5 pixel border or over text3.
+function text3_ButtonDownFcn(hObject, eventdata, handles)
+% hObject    handle to text3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)

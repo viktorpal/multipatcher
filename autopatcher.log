@@ -1207,3 +1207,48 @@
 2021-05-28 08:39:22,801 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
 2021-05-28 08:39:25,130 TRACE AmplifierSimulator.startup - startup called
 2021-05-28 08:39:42,415 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-28 08:50:12,124 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-28 08:50:14,411 TRACE AmplifierSimulator.startup - startup called
+2021-05-28 08:50:24,560 TRACE startLiveView - Starting live view
+2021-05-28 08:50:31,482 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 105.0519      511.8907             1
+2021-05-28 08:50:31,546 TRACE PipetteController.moveTo - Moving pipette Y to 3.7762
+2021-05-28 08:50:31,552 TRACE PipetteController.moveTo - Moving pipette Z to 62.7382
+2021-05-28 08:50:31,556 TRACE PipetteController.moveTo - Moving pipette X to 114.7786
+2021-05-28 08:50:53,912 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 1295.4272      495.82009              1
+2021-05-28 08:50:53,919 TRACE PipetteController.moveTo - Moving pipette Y to -7.0898
+2021-05-28 08:50:53,924 TRACE PipetteController.moveTo - Moving pipette Z to -26.1013
+2021-05-28 08:50:53,930 TRACE PipetteController.moveTo - Moving pipette X to -47.7766
+2021-05-28 08:51:59,947 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 1278.2086      534.84879              1
+2021-05-28 08:51:59,972 TRACE PipetteController.moveTo - Moving pipette Y to -11.3752
+2021-05-28 08:51:59,977 TRACE PipetteController.moveTo - Moving pipette Z to -24.5048
+2021-05-28 08:51:59,980 TRACE PipetteController.moveTo - Moving pipette X to -44.8753
+2021-05-28 08:52:09,511 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 28.14238      453.3477             1
+2021-05-28 08:52:09,518 TRACE PipetteController.moveTo - Moving pipette Y to 11.301
+2021-05-28 08:52:09,521 TRACE PipetteController.moveTo - Moving pipette Z to 67.9997
+2021-05-28 08:52:09,524 TRACE PipetteController.moveTo - Moving pipette X to 124.4366
+2021-05-28 08:54:33,323 TRACE stopLiveView - Stopping live view
+2021-05-28 08:54:33,343 TRACE stopPrediction - Stopping live prediction
+2021-05-28 08:54:33,455 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-28 08:54:49,426 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-28 08:54:51,895 TRACE AmplifierSimulator.startup - startup called
+2021-05-28 08:55:07,341 TRACE startLiveView - Starting live view
+2021-05-28 08:55:55,755 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 183.6328      596.9874             1
+2021-05-28 08:55:55,772 TRACE PipetteController.moveTo - Moving pipette Y to -6.8072
+2021-05-28 08:55:55,777 TRACE PipetteController.moveTo - Moving pipette Z to 57.5653
+2021-05-28 08:55:55,782 TRACE PipetteController.moveTo - Moving pipette X to 105.2691
+2021-05-28 08:55:59,952 TRACE liveViewClickMovePipette - Calculating pipette movement caused by click in live view at 175.6416      576.4385             1
+2021-05-28 08:55:59,955 TRACE PipetteController.moveTo - Moving pipette Y to -4.3688
+2021-05-28 08:55:59,958 TRACE PipetteController.moveTo - Moving pipette Z to 57.9958
+2021-05-28 08:55:59,961 TRACE PipetteController.moveTo - Moving pipette X to 106.0675
+2021-05-28 08:57:37,023 TRACE stopLiveView - Stopping live view
+2021-05-28 08:57:37,029 TRACE stopPrediction - Stopping live prediction
+2021-05-28 08:57:37,120 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-28 08:57:55,290 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-28 08:57:57,563 TRACE AmplifierSimulator.startup - startup called
+2021-05-28 08:58:01,251 TRACE startLiveView - Starting live view
+2021-05-28 08:59:38,682 TRACE stopLiveView - Stopping live view
+2021-05-28 08:59:38,691 TRACE stopPrediction - Stopping live prediction
+2021-05-28 08:59:38,814 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-28 09:00:51,752 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-28 09:00:53,970 TRACE AmplifierSimulator.startup - startup called
+2021-05-28 09:01:06,630 INFO AutoPatcher.stopFunction - Stopping blind patcher.
