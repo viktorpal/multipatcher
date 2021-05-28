@@ -1198,3 +1198,12 @@
 2021-05-22 12:50:23,790 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
 2021-05-22 12:50:26,744 TRACE AmplifierSimulator.startup - startup called
 2021-05-22 12:50:50,491 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-24 18:14:58,297 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-24 18:15:01,646 TRACE AmplifierSimulator.startup - startup called
+2021-05-24 18:15:23,148 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-28 08:35:00,682 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-28 08:35:04,425 TRACE AmplifierSimulator.startup - startup called
+2021-05-28 08:35:12,059 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-05-28 08:39:22,801 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-05-28 08:39:25,130 TRACE AmplifierSimulator.startup - startup called
+2021-05-28 08:39:42,415 INFO AutoPatcher.stopFunction - Stopping blind patcher.
