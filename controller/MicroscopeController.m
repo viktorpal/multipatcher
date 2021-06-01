@@ -17,7 +17,7 @@ classdef MicroscopeController < matlab.mixin.SetGet
         camera
     end
     
-    properties (Access = private)
+    properties% (Access = private)
         pipetteList
     end
     
