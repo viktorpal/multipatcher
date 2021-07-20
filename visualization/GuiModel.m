@@ -15,7 +15,7 @@
         zslice
     end
     
-    properties
+    properties 
         config % Config object
         generalParameters % GeneralParameters object
         fileDialogLocation
@@ -149,7 +149,7 @@
             assert(isa(visualLogger, 'VisualLogger'), 'Input should be a VisualLogger object!');
             this.visualLogger = visualLogger;
         end
-        
+
 %         function set.diary(this, diary)
 %             assert(isempty(diary) || isa(diary, 'PatchClampDiary'), 'Variable ''diary'' should be empty or a PatchClampDiary object!');
 %             this.diary = diary;

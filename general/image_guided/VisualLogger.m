@@ -18,6 +18,7 @@ classdef VisualLogger < matlab.mixin.SetGet
         autopatcherStatusListener
         visualPatcherPhaseListener
         visualPatcherSubphaseListener
+        
     end
     
     methods

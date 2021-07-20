@@ -30,7 +30,6 @@ classdef AutoPatcher < matlab.mixin.SetGet
     end
     
     properties
-        activePipetteId
         forwardAxis
         stepSize % step size per second in the hunting phase
         maxDistance % maximum distance to take in the hunting phase (um), 0 means unlimited
@@ -102,6 +101,12 @@ classdef AutoPatcher < matlab.mixin.SetGet
         sealingStartResistance
     end
     
+    properties (SetObservable)
+        activePipetteIdListener
+        activePipetteId
+    end
+    
+    
     methods
         function this = AutoPatcher(microscope, pressureController, elphysProcessor, amplifier)
             assert(isa(microscope, 'MicroscopeController'));
@@ -145,6 +150,8 @@ classdef AutoPatcher < matlab.mixin.SetGet
             this.pullBackSteps = this.defaultPullBackSteps;
             this.sealingProtocolRValues = this.defaultSealingProtocolRValues;
             this.sealingProtocolVoltageValues = this.defaultSealingProtocolVoltageValues;
+            this.activePipetteIdListener = this.addlistener('activePipetteId', 'PostSet', ...
+                @(src, event) this.activePipetteIdChangeCb(src, event));
         end
         
         function delete(this)
@@ -154,6 +161,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
             delete(this.amplifier);
         end
 
+    
         function start(this, pipetteId)
             %START(obj, pipetteId) Start the blind patch system
             %   Initializes variables, listeners and timers. Then the
@@ -345,6 +353,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
             start(this.t);
         end
         
+   
         function timerFcn(this, ~, ~)
             resistance = this.lastResistance;
             if (isempty(this.firstResistance) || isnan(this.firstResistance)) && ~isempty(this.resistanceHistory)
@@ -783,6 +792,11 @@ classdef AutoPatcher < matlab.mixin.SetGet
                      this.pressureController.getPressure() <= this.lowPositivePressure + 10 % TODO this value should be asked from the pressure controllers error, which can be dynamic based on pressure
                 tf  = true;
             end
+        end
+                
+        function activePipetteIdChangeCb(this, ~, event)
+           % set(handles.activePipetteIdText, 'String', char(event.AffectedObject.status));
+             disp(this.activePipetteIdListener)
         end
     end
     
