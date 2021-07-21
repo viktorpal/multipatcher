@@ -7079,3 +7079,49 @@
 2021-07-07 10:21:29,660 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
 2021-07-07 10:21:29,787 TRACE AmplifierSimulator.startup - startup called
 2021-07-07 18:41:04,997 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-20 22:31:18,555 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-20 22:31:18,910 TRACE AmplifierSimulator.startup - startup called
+2021-07-20 22:32:14,506 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-20 23:07:15,375 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-20 23:07:15,729 TRACE AmplifierSimulator.startup - startup called
+2021-07-20 23:07:26,724 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 08:16:30,851 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 08:16:31,600 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 08:19:59,876 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 09:11:42,811 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 09:11:42,967 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 09:12:07,715 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 09:46:21,458 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 09:46:21,593 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 09:47:00,570 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 09:47:00,653 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 09:47:00,859 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 09:47:19,536 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 09:47:19,633 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 09:47:19,943 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 09:47:33,461 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 10:03:41,511 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 10:03:41,917 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 10:09:36,786 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 10:12:53,937 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 10:12:54,089 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 10:19:58,721 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 10:20:16,927 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 10:20:17,037 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 10:23:01,736 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 10:23:01,840 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 10:24:47,077 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 10:24:47,284 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 10:24:47,588 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 10:25:54,708 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 10:25:54,921 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 10:25:55,405 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 10:26:14,524 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-07-21 10:28:24,431 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-07-21 10:28:24,530 TRACE AmplifierSimulator.startup - startup called
+2021-07-21 10:28:28,507 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId change to: 2
+2021-07-21 10:28:30,948 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId change to: 1
+2021-07-21 10:51:08,462 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-07-21 10:51:09,989 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-07-21 10:51:11,596 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-07-21 10:51:12,832 INFO AutoPatcher.stopFunction - Stopping blind patcher.

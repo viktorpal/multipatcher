@@ -3,9 +3,9 @@
     %   The model contains microscope part controllers, gui handlers and
     %   various variables that are necessary for functioning.
     
-    properties (Constant, Hidden)
-        defaultActivePipetteID = 1;
-    end
+%     properties (Constant, Hidden)
+%         defaultActivePipetteID = 1;
+%     end
     
     properties (SetAccess = immutable)
         microscope
@@ -19,7 +19,7 @@
         config % Config object
         generalParameters % GeneralParameters object
         fileDialogLocation
-        activePipetteID % ID of the pipette associated with the microscope object that will be used for operations
+%         activePipetteID % ID of the pipette associated with the microscope object that will be used for operations
         imgstack % ImageStack object to be visualized in stack mode
         originalImgstack % raw imgstack which is loaded from file or created during run
         reconstructedImgstack % reconstructed ImageStack object
@@ -65,7 +65,7 @@
             assert(isa(microscope, 'MicroscopeController'), 'Input should be a MicroscopeController!');
             this.microscope = microscope;
             this.generalParameters = GeneralParameters();
-            this.activePipetteID = this.defaultActivePipetteID;
+%             this.activePipetteID = this.defaultActivePipetteID;
             log4m.getLogger('autopatcher.log'); % init logger
         end
         

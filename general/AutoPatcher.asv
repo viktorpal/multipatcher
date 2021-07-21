@@ -795,7 +795,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
         end
                 
         function activePipetteIdChangeCb(this, ~, event)
-                log4m.getLogger().info(['The activePipetteId was changed to: ', num2str(this.activePipetteId)]);
+                log4m.getLogger().info(['The activePipetteId change to: ', num2str(this.activePipetteId)]);
 %              disp(this.activePipetteId)
         end
     end

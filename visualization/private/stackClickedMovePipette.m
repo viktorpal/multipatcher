@@ -24,7 +24,7 @@ ptStageCoord = [model.imgstack.meta.stageX, model.imgstack.meta.stageY, model.im
 ptStageCoord = ptStageCoord + [1, -1, 1] .*(ptIntersection - [0 0 1]) .* [model.imgstack.meta.pixelSizeX, ...
                                                                           model.imgstack.meta.pixelSizeY, ...
                                                                           model.imgstack.meta.pixelSizeZ];
-pipette = model.microscope.getPipette(model.activePipetteID);
+pipette = model.microscope.getPipette(model.autopatcher.activePipetteId);
 newPipetteCoord = pipette.microscope2pipette(ptStageCoord, 'absolute');
 if strcmp(handles.ignoreSampleTopMenuItem.Checked, 'on')
     pipette.moveTo(newPipetteCoord(1), newPipetteCoord(2), newPipetteCoord(3));

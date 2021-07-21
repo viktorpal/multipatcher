@@ -14,7 +14,7 @@ if isLiveView
     pipettePosPx = get(handles.mainaxes, 'CurrentPoint');
     focusTurretPosition = turretPos + [1, -1, 0] .* pipettePosPx(1,:) ...
         .* [model.microscope.pixelSizeX, model.microscope.pixelSizeY, 0];
-    pipette = model.microscope.getPipette(model.activePipetteID);
+    pipette = model.microscope.getPipette(model.autopatcher.activePipetteId);
     pipette.focusTurretPosition = focusTurretPosition;
     pipette.focusPosition = pipette.getPosition();
 else
@@ -35,7 +35,7 @@ else
     focusTurretPos = turretPos + ptIntersection .* [model.imgstack.meta.pixelSizeX, ...
                                                     model.imgstack.meta.pixelSizeY, ...
                                                     model.imgstack.meta.pixelSizeZ];
-    pipette = model.microscope.getPipette(model.activePipetteID);
+    pipette = model.microscope.getPipette(model.autopatcher.activePipetteId);
     pipette.focusTurretPosition = focusTurretPos;
     pipette.focusPosition = [model.imgstack.meta.pipette1X, ...
                              model.imgstack.meta.pipette1Y, ...

@@ -56,7 +56,7 @@ drawnow;
 startVPControlIfNotRunning(handles);
 drawnow;
 startLiveViewIfNotRunning(handles);
-pipetteId = model.activePipetteID;
+pipetteId = model.autopatcher.activePipetteId;
 model.trackerPositionUpdateListener = model.visualPatcher.tracker.addlistener('PositionUpdate', ...
     @(src,event) trackerPositionUpdateListenerCallback(src,event,handles));
 model.visualPatcher.start(ptStageCoord, model.sampleTop, 'pipetteId', pipetteId, 'approachOnly', approachOnly);

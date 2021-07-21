@@ -8,7 +8,7 @@ model = get(handles.mainfigure, 'UserData');
 ptStageCoord = model.microscope.getStagePosition() + [1, -1, 1] .* pt .* [model.microscope.pixelSizeX, ...
                                                                           model.microscope.pixelSizeY, ...
                                                                           0];
-pipette = model.microscope.getPipette(model.activePipetteID);
+pipette = model.microscope.getPipette(model.autopatcher.activePipetteId);
 newPipetteCoord = pipette.microscope2pipette(ptStageCoord, 'absolute');
 if strcmp(handles.ignoreSampleTopMenuItem.Checked, 'on')
     pipette.moveTo(newPipetteCoord(1), newPipetteCoord(2), newPipetteCoord(3));

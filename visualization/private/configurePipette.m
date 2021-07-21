@@ -4,7 +4,7 @@ function configurePipette(handles)
 
 dialogName = 'Pipette Configuration';
 model = get(handles.mainfigure, 'UserData');
-pipette = model.microscope.getPipette(model.activePipetteID);
+pipette = model.microscope.getPipette(model.autopatcher.activePipetteId);
 stage = model.microscope.stage;
 
 %% movements

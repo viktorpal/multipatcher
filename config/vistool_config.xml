@@ -194,7 +194,7 @@
             <parameter type="reference">amplifier</parameter>
          </constructorParameters>
          <properties>
-            <parameter name="activePipetteId" type="numeric">3</parameter>
+            <!--parameter name="activePipetteId" type="numeric">3</parameter-->
             <parameter name="stepSize" type="numeric">2</parameter>
             <parameter name="minResistanceChangeForDetection" type="numeric">0.5</parameter>
             <parameter name="lowPositivePressure" type="numeric">50</parameter>
@@ -310,7 +310,7 @@
             <parameter name="rsImprover" type="reference">rsImprover</parameter>
             <parameter name="pipetteCleaner" type="reference">pipetteCleaner</parameter>
             <parameter name="visualLogger" type="reference">visualLogger</parameter>
-            <parameter name="figureOuterPosition" type="numeric">[0.015625,-0.027778,1,1.0056]</parameter>
+            <parameter name="figureOuterPosition" type="numeric">[0.30104,-0.027778,0.68333,1.0056]</parameter>
             <!--- set [] for default -->
             <parameter name="visualPatcherControlPosition" type="numeric">[1035,514,283,292]</parameter>
             <!--- set [] for default -->

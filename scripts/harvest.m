@@ -1,7 +1,7 @@
 stepSize = 2;
 movementWaitTime = 3; % seconds
 
-pipette = model.microscope.getPipette(model.activePipetteID);
+pipette = model.microscope.getPipette(model.autopatcher.activePipetteId);
 previousAutomaticSlowSpeed = pipette.automaticSlowSpeed;
 pipette.automaticSlowSpeed = 1;
 try

@@ -451,11 +451,11 @@ else
         'Warning');
     return
 end
-[x, y, z] = estimateFocusPipeline(imgstack, model.microscope.getPipette(model.activePipetteID), model.microscope.pixelSizeX);
+[x, y, z] = estimateFocusPipeline(imgstack, model.microscope.getPipette(model.autopatcher.activePipetteId), model.microscope.pixelSizeX);
 turretPos = model.microscope.getStagePosition();
 focusTurretPosition = turretPos + [1, -1, 1] .* [x, y, z*step] ...
     .* [model.microscope.pixelSizeX, model.microscope.pixelSizeY, 1];
-pipette = model.microscope.getPipette(model.activePipetteID);
+pipette = model.microscope.getPipette(model.autopatcher.activePipetteId);
 pipette.focusTurretPosition = focusTurretPosition;
 pipette.focusPosition = pipette.getPosition();
 model.microscope.stage.moveTo([],[],focusTurretPosition(3));
@@ -541,7 +541,7 @@ function activePipetteId_popup_Callback(hObject, eventdata, handles)
 
 model = get(handles.mainfigure, 'UserData');
 contents = cellstr(get(hObject,'String'));
-model.activePipetteID = str2num(contents{get(hObject,'Value')});
+model.autopatcher.activePipetteId = str2num(contents{get(hObject,'Value')});
 % hObject    handle to activePipetteId_popup (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
