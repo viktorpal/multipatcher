@@ -217,7 +217,22 @@
             <parameter name="sealingProtocolRValues" type="numeric">[10,20,50,100,500]</parameter>
             <parameter name="sealingProtocolVoltageValues" type="numeric">[-20,-30,-50,-60,-70]</parameter>
          </properties>
-         <methodsToCall/>
+         <methodsToCall>
+             <method>
+               <name>associatePipetteIdWithAmplifierNumber</name>
+               <parameters>
+                  <parameter type="numeric">1</parameter>
+                  <parameter type="numeric">1</parameter>
+               </parameters>
+            </method>
+            <method>
+               <name>associatePipetteIdWithAmplifierNumber</name>
+               <parameters>
+                  <parameter type="numeric">2</parameter>
+                  <parameter type="numeric">2</parameter>
+               </parameters>
+            </method>
+         </methodsToCall>
       </element>
       <element>
          <id>rsImprover</id>
@@ -293,7 +308,7 @@
          </constructorParameters>
          <properties>
             <parameter name="enabled" type="logical">true</parameter>
-            <parameter name="folderpath" type="char">.\log\</parameter>
+            <parameter name="folderpath" type="char">./log/</parameter>
          </properties>
       </element>
       <element>

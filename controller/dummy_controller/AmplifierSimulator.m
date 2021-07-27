@@ -2,6 +2,9 @@ classdef AmplifierSimulator < AbstractAmplifier & handle
     %AMPLIFIERSIMULATOR Simple amplifier simulator that does nothing
     %   
     
+    properties
+        amplifierNumber
+    end
     
     methods
         function startup(this)

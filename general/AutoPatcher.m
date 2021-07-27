@@ -67,6 +67,8 @@ classdef AutoPatcher < matlab.mixin.SetGet
     properties (SetAccess = protected)
         firstResistance
         breakInDelay
+        pipetteAmplifierAssociation
+        activePipetteIdListener
     end
     
     properties (SetAccess = immutable)
@@ -102,7 +104,6 @@ classdef AutoPatcher < matlab.mixin.SetGet
     end
     
     properties (SetObservable)
-        activePipetteIdListener
         activePipetteId
     end
     
@@ -152,6 +153,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
             this.sealingProtocolVoltageValues = this.defaultSealingProtocolVoltageValues;
             this.activePipetteIdListener = this.addlistener('activePipetteId', 'PostSet', ...
                 @(src, event) this.activePipetteIdChangeCb(src, event));
+            this.pipetteAmplifierAssociation = containers.Map('KeyType', 'double', 'ValueType', 'double');
         end
         
         function delete(this)
@@ -314,6 +316,14 @@ classdef AutoPatcher < matlab.mixin.SetGet
         function set.pullBackSteps(this, value)
             assert(~isempty(value) && isnumeric(value) && value > 0, 'Value should be an integer greater than 0.');
             this.pullBackSteps = value;
+        end
+        
+        function associatePipetteIdWithAmplifierNumber(this, pipetteId, amplifierNumber)
+            this.pipetteAmplifierAssociation(pipetteId) = amplifierNumber;
+        end
+        
+        function amplifierNumber = getAmplifierNumberForPipetteId(this, pipetteId)
+            amplifierNumber = this.pipetteAmplifierAssociation(pipetteId);
         end
     end
        
@@ -795,8 +805,9 @@ classdef AutoPatcher < matlab.mixin.SetGet
         end
                 
         function activePipetteIdChangeCb(this, ~, event)
-                log4m.getLogger().info(['The activePipetteId was changed to: ', num2str(this.activePipetteId)]);
-%              disp(this.activePipetteId)
+            log4m.getLogger().info(['The activePipetteId was changed to: ', num2str(this.activePipetteId)]);
+            amplifierNum = this.getAmplifierNumberForPipetteId(this.activePipetteId);
+            this.amplifier.amplifierNumber = amplifierNum;
         end
     end
     
