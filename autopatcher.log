@@ -7125,3 +7125,116 @@
 2021-07-21 10:51:09,989 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
 2021-07-21 10:51:11,596 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
 2021-07-21 10:51:12,832 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 13:27:55,796 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 13:27:56,434 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 13:27:59,098 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 13:28:01,077 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 13:28:02,942 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:10:32,470 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:10:32,581 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 14:10:38,753 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:10:40,703 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:10:41,927 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:20:03,806 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:21:23,043 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:21:23,166 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 14:21:26,198 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:21:28,413 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:21:34,285 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:21:45,431 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:22:24,711 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:22:24,788 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 14:22:29,404 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:22:37,251 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:22:50,328 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:31:08,901 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:31:09,005 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 14:31:11,628 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:31:19,864 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:32:17,472 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:32:19,536 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:32:23,633 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:32:32,500 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:32:44,827 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:32:44,886 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 14:32:48,038 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:33:04,616 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:33:07,119 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:33:10,307 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:37:48,776 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:37:51,798 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:37:56,049 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:38:32,646 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:38:36,230 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:38:38,738 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:45:47,300 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:46:30,342 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:46:49,450 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:46:49,564 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 14:47:37,421 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:47:47,150 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:47:47,216 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 14:47:51,881 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:47:53,692 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:47:58,151 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:48:00,634 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:48:01,498 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:48:02,080 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:48:02,466 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:48:02,814 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:48:15,000 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:48:24,534 TRACE startLiveView - Starting live view
+2021-08-02 14:51:17,943 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:51:25,244 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:51:30,842 TRACE stopLiveView - Stopping live view
+2021-08-02 14:51:30,858 TRACE stopPrediction - Stopping live prediction
+2021-08-02 14:51:31,051 TRACE startLiveView - Starting live view
+2021-08-02 14:51:33,335 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:51:36,875 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:52:09,861 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:52:13,943 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:53:01,493 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:53:04,604 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:58:12,818 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:58:15,995 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:58:17,814 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 14:58:21,852 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 14:58:27,688 TRACE stopLiveView - Stopping live view
+2021-08-02 14:58:27,694 TRACE stopPrediction - Stopping live prediction
+2021-08-02 14:58:27,834 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 14:58:42,400 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 14:58:42,550 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 15:00:04,465 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 15:00:10,214 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 15:38:15,261 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 15:38:17,177 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 15:38:21,161 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 15:38:49,033 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 15:38:53,449 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 15:39:23,938 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 15:39:29,813 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 15:39:44,491 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 15:39:49,253 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:07:32,159 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:07:37,024 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 22:08:29,107 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 22:08:31,072 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:08:34,053 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 22:09:06,734 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 22:09:12,680 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:10:07,581 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:10:39,887 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:10:43,634 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 22:10:47,016 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:10:54,525 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:42:20,350 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:43:41,379 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 22:44:04,082 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-02 22:44:31,136 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-02 22:44:35,143 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 22:44:52,339 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 22:44:52,424 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 22:45:12,199 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-02 22:45:22,422 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-02 22:45:22,482 TRACE AmplifierSimulator.startup - startup called
+2021-08-02 22:57:51,648 INFO AutoPatcher.stopFunction - Stopping blind patcher.

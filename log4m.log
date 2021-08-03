@@ -1,0 +1,137 @@
+2021-07-25 14:19:38,924 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-07-25 14:19:59,940 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-01 19:50:43,293 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 19:53:35,324 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 19:53:39,051 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:05:20,251 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:05:45,948 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-01 20:06:05,566 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:06:05,593 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:06:54,025 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:06:54,062 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:09:04,688 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:09:04,723 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:10:10,053 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:10:10,080 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:10:40,547 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:15:08,341 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:15:08,365 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:15:32,228 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:15:32,255 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:15:44,320 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:16:20,963 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:16:20,987 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:17:15,197 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:17:17,637 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:17:22,660 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:18:22,352 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:18:24,491 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:18:30,140 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:19:09,946 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:19:14,188 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:20:33,510 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:20:37,357 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:25:40,093 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:25:46,727 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:25:51,781 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:25:57,373 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:26:01,336 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:26:12,325 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:26:21,213 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:26:44,263 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:26:52,571 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:28:28,789 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-01 20:29:23,978 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:30:16,154 INFO AutoPatcher.startFromPhase - Starting blind patcher from phase: 2
+2021-08-01 20:30:19,793 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-01 20:35:23,376 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:35:28,366 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:39:08,787 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:39:14,361 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:40:21,855 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:40:26,922 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:40:41,391 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:40:43,506 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:40:46,259 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-01 20:40:50,410 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 20:41:01,264 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-01 23:49:37,789 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 13:44:09,463 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 13:44:10,921 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 13:44:16,008 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 13:44:20,043 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:08:43,876 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:11:56,634 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:12:25,823 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:13:31,695 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:14:42,841 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:29:58,748 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:30:32,778 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:31:37,550 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:32:24,513 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:33:28,812 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:34:52,303 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:35:51,672 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:36:41,977 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:37:49,653 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:38:51,208 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:40:03,929 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 17:53:59,703 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 18:01:44,829 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:30:25,394 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:31:48,145 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:33:43,329 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:37:05,571 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:37:24,332 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 19:45:29,478 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 19:45:29,659 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:47:50,621 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:51:23,004 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:55:24,957 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:55:40,535 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 19:55:46,231 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 19:55:58,897 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 19:57:09,586 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 19:57:20,757 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:00:02,838 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:00:06,086 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:00:13,996 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:02:40,879 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:02:45,848 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:02:52,980 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:03:31,486 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:04:33,295 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:06:46,523 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:07:44,394 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:08:53,301 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:12:16,163 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:13:19,773 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:14:35,027 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:18:37,310 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 20:19:06,444 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:19:06,470 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:21:35,670 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:21:35,697 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:21:43,620 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:21:43,625 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:21:52,080 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:21:52,097 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:21:55,241 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:21:55,244 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:22:04,700 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:22:04,704 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:22:29,056 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:22:29,058 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:22:41,712 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:22:41,714 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:22:45,602 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:22:45,604 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:23:04,481 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:23:04,484 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:23:08,134 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:23:08,137 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:23:20,627 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:23:20,629 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 20:23:23,225 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:23:23,227 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 20:23:28,935 INFO AutoPatcher.stopFunction - Stopping blind patcher.

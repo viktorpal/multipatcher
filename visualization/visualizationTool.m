@@ -22,7 +22,7 @@ function varargout = visualizationTool(varargin)
 
 % Edit the above text to modify the response to help visualizationTool
 
-% Last Modified by GUIDE v2.5 28-May-2021 08:43:09
+% Last Modified by GUIDE v2.5 03-Aug-2021 19:52:56
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -70,6 +70,9 @@ model.predictionZsliceListener = model.addlistener('zslice', 'PostSet', ...
     @(src,event) showPredictedBoundingBoxes_Callback(handles));
 model.zlevelTimer = timer('TimerFcn', @(obj,event) updateZsliceText(handles), ...
     'ExecutionMode', 'fixedRate', 'Period', 0.25, 'BusyMode', 'drop', 'Name', 'updateZsliceText-timer');
+% model.autopatcher.activePipetteIdListener = model.autopatcher.addlistener('activePipetteIdChange', @(src,event) activePipetteIdChanged_Callback(handles));
+model.activePipetteIdChangeListener = model.autopatcher.addlistener('activePipetteId', 'PostSet', ...
+                @(src, event) activePipetteIdChanged_Callback(handles));
 pipetteList = model.microscope.getPipetteList().keys;
 handles.activePipetteId_popup.String = pipetteList;
 
@@ -538,24 +541,29 @@ end
 
 % --- Executes on selection change in activePipetteId_popup.
 function activePipetteId_popup_Callback(hObject, eventdata, handles)
-
 model = get(handles.mainfigure, 'UserData');
 contents = cellstr(get(hObject,'String'));
 model.autopatcher.activePipetteId = str2num(contents{get(hObject,'Value')});
 % hObject    handle to activePipetteId_popup (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
 % Hints: contents = cellstr(get(hObject,'String')) returns activePipetteId_popup contents as cell array
 %        contents{get(hObject,'Value')} returns selected item from activePipetteId_popup
 
+
+function activePipetteIdChanged_Callback(handles)
+% model = get(handles.mainfigure, 'UserData');
+% set(handles.model.autopatcher.activePipetteId, 'String', char(event.AffectedObject.status));
+model = get(handles.mainfigure, 'UserData');
+model.autopatcher.activePipetteId = [model.autopatcher.activePipetteId(2:end), model.autopatcher.activePipetteId()];
+activePipetteId = model.autopatcher.activePipetteId();
+set(handles.activePipetteId_popup, 'Value', activePipetteId);
 
 % --- Executes during object creation, after setting all properties.
 function activePipetteId_popup_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to activePipetteId_popup (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-
 % Hint: popupmenu controls usually have a white background on Windows.
 %       See ISPC and COMPUTER.
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
@@ -569,3 +577,12 @@ function text3_ButtonDownFcn(hObject, eventdata, handles)
 % hObject    handle to text3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
+
+% --- Executes during object deletion, before destroying properties.
+function activePipetteId_popup_DeleteFcn(hObject, eventdata, handles)
+% hObject    handle to activePipetteId_popup (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+

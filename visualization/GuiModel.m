@@ -14,6 +14,10 @@
     properties (SetObservable)
         zslice
     end
+    properties (SetObservable)
+        activePipetteIdChangeListener
+        activePipetteIdChange
+    end
     
     properties 
         config % Config object
