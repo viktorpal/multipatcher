@@ -16,7 +16,6 @@
     end
     properties (SetObservable)
         activePipetteIdChangeListener
-        activePipetteIdChange
     end
     
     properties 
