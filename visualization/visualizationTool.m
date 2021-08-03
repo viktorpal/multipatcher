@@ -70,7 +70,6 @@ model.predictionZsliceListener = model.addlistener('zslice', 'PostSet', ...
     @(src,event) showPredictedBoundingBoxes_Callback(handles));
 model.zlevelTimer = timer('TimerFcn', @(obj,event) updateZsliceText(handles), ...
     'ExecutionMode', 'fixedRate', 'Period', 0.25, 'BusyMode', 'drop', 'Name', 'updateZsliceText-timer');
-% model.autopatcher.activePipetteIdListener = model.autopatcher.addlistener('activePipetteIdChange', @(src,event) activePipetteIdChanged_Callback(handles));
 model.activePipetteIdChangeListener = model.autopatcher.addlistener('activePipetteId', 'PostSet', ...
                 @(src, event) activePipetteIdChanged_Callback(handles));
 pipetteList = model.microscope.getPipetteList().keys;
@@ -78,7 +77,6 @@ handles.activePipetteId_popup.String = pipetteList;
 
 drawnow;
 
-%model.activepipetteid_popup = model.microscope.getPipette('pip1','pip2')
 
 if ~isempty(model.figureOuterPosition)
     hObject.OuterPosition = model.figureOuterPosition;
@@ -552,8 +550,6 @@ model.autopatcher.activePipetteId = str2num(contents{get(hObject,'Value')});
 
 
 function activePipetteIdChanged_Callback(handles)
-% model = get(handles.mainfigure, 'UserData');
-% set(handles.model.autopatcher.activePipetteId, 'String', char(event.AffectedObject.status));
 model = get(handles.mainfigure, 'UserData');
 model.autopatcher.activePipetteId = [model.autopatcher.activePipetteId(2:end), model.autopatcher.activePipetteId()];
 activePipetteId = model.autopatcher.activePipetteId();

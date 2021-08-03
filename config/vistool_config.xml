@@ -325,7 +325,7 @@
             <parameter name="rsImprover" type="reference">rsImprover</parameter>
             <parameter name="pipetteCleaner" type="reference">pipetteCleaner</parameter>
             <parameter name="visualLogger" type="reference">visualLogger</parameter>
-            <parameter name="figureOuterPosition" type="numeric">[-0.0041667,0.02963,1.0083,0.97778]</parameter>
+            <parameter name="figureOuterPosition" type="numeric">[0.49635,0.030556,0.50729,0.96944]</parameter>
             <!--- set [] for default -->
             <parameter name="visualPatcherControlPosition" type="numeric">[1035,514,283,292]</parameter>
             <!--- set [] for default -->
