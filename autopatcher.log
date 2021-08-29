@@ -7238,3 +7238,316 @@
 2021-08-02 22:45:22,422 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
 2021-08-02 22:45:22,482 TRACE AmplifierSimulator.startup - startup called
 2021-08-02 22:57:51,648 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 22:02:24,625 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-03 22:02:24,968 TRACE AmplifierSimulator.startup - startup called
+2021-08-03 22:02:28,947 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:02:28,953 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:02:38,539 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 22:02:38,556 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 22:02:58,451 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:03:02,953 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 22:03:23,690 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 22:03:44,011 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:03:55,104 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:03:55,106 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:04:12,956 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-03 22:05:18,974 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-03 22:05:19,082 TRACE AmplifierSimulator.startup - startup called
+2021-08-03 22:05:23,048 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:05:23,050 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-03 22:05:27,077 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 22:05:27,080 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-03 22:05:29,752 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-08 12:41:06,313 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-08 12:41:06,989 TRACE AmplifierSimulator.startup - startup called
+2021-08-08 12:42:28,447 TRACE startLiveView - Starting live view
+2021-08-08 12:44:07,516 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-08 12:44:11,048 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-08 13:03:53,343 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-08 13:03:57,606 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-08 13:21:31,592 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-08 13:38:13,031 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-08 13:38:20,832 INFO GuiModel.set.sampleTop - Sample top position set to: 0
+2021-08-08 13:38:25,678 DEBUG clickPatchClamp - Starting targeted patch-clamping caused by click in live view at 78.5673      -87.561            0, pixel positions xy: 683.1942, 761.3997
+2021-08-08 13:38:37,576 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 13:38:37,582 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-08-08 13:38:37,595 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-08-08 13:38:37,598 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:38,110 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-08-08 13:38:38,113 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:38,593 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-08-08 13:38:38,595 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:38,615 DEBUG VisualLogger.vpSubphaseChangeCb - Logging image at VP startup.
+2021-08-08 13:38:38,618 TRACE VisualLogger.log - Logging image with name: 2021-08-08_13-38-38,617_VP_starting.png
+2021-08-08 13:38:39,092 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-08-08 13:38:39,094 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:39,611 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-08-08 13:38:39,614 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:39,664 DEBUG PipetteController.executeSmartMoveToSteps - executing: 26.9055 NaN NaN, speed: fast
+2021-08-08 13:38:39,667 TRACE PipetteController.moveTo - Moving pipette X to 26.9055
+2021-08-08 13:38:39,671 DEBUG PipetteController.executeSmartMoveToSteps - executing: NaN -34.1451 14.792, speed: fast
+2021-08-08 13:38:39,675 TRACE PipetteController.moveTo - Moving pipette Y to -34.1451
+2021-08-08 13:38:39,678 TRACE PipetteController.moveTo - Moving pipette Z to 14.792
+2021-08-08 13:38:40,092 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 0
+2021-08-08 13:38:40,094 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:40,099 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 13:38:41,756 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-08-08 13:38:41,795 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 1
+2021-08-08 13:38:41,797 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:41,801 TRACE VisualPatcher.checkTrackingDistance - Target distance: -12.8048
+2021-08-08 13:38:41,804 INFO VisualPatcher.checkTrackingDistance - Tracking stopped, wish you the best!
+2021-08-08 13:38:41,824 DEBUG VisualPatcher.checkTrackingDistance - Could not get pipette X position. Trying again in the next timer tick. Error: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 13:38:41,826 TRACE VisualPatcher.performApproachingSteps - Target distance is: -12.8048
+2021-08-08 13:38:41,828 TRACE VisualPatcher.performApproachingSteps - Switching to phase 2
+2021-08-08 13:38:41,830 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-08-08 13:38:42,092 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 2
+2021-08-08 13:38:42,094 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:42,098 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-08-08 13:38:42,614 TRACE VisualPatcher.controlCb - VisualPatcher control callback function called. phase = 3
+2021-08-08 13:38:42,616 TRACE VisualPatcher.controlCb - dodgePhase = 0, dodgeStep = 0, resistance = 5
+2021-08-08 13:38:42,619 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-08-08 13:38:42,624 TRACE VisualLogger.vpPhaseChangeCb - Currently not logging anything at VP phase change.
+2021-08-08 13:38:42,628 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 13:38:42,631 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 13:38:42,636 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-08 13:38:42,654 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 13:38:42,658 INFO AutoPatcher.startFromPhase - Starting blind patcher from phase: 1
+2021-08-08 13:38:42,675 TRACE AutoPatcher.timerFcn - phase = 1, resistance = NaN
+2021-08-08 13:38:42,686 TRACE AmplifierSimulator.setup - setup called
+2021-08-08 13:38:42,691 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 13:38:42,704 DEBUG VisualLogger.apStatusChangeCb - Logging image due to AP status change.
+2021-08-08 13:38:42,707 TRACE VisualLogger.log - Logging image with name: 2021-08-08_13-38-42,706_AP_hunting.png
+2021-08-08 13:38:43,665 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:44,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:44,667 TRACE PipetteController.moveTo - Moving pipette Z to 16.792
+2021-08-08 13:38:45,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:45,667 TRACE PipetteController.moveTo - Moving pipette Z to 18.792
+2021-08-08 13:38:46,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:46,670 TRACE PipetteController.moveTo - Moving pipette Z to 20.792
+2021-08-08 13:38:47,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:47,665 TRACE PipetteController.moveTo - Moving pipette Z to 22.792
+2021-08-08 13:38:48,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:48,670 TRACE PipetteController.moveTo - Moving pipette Z to 24.792
+2021-08-08 13:38:49,665 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:49,667 TRACE PipetteController.moveTo - Moving pipette Z to 26.792
+2021-08-08 13:38:50,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:50,664 TRACE PipetteController.moveTo - Moving pipette Z to 28.792
+2021-08-08 13:38:51,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:51,666 TRACE PipetteController.moveTo - Moving pipette Z to 30.792
+2021-08-08 13:38:52,665 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:52,667 TRACE PipetteController.moveTo - Moving pipette Z to 32.792
+2021-08-08 13:38:53,661 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:53,663 TRACE PipetteController.moveTo - Moving pipette Z to 34.792
+2021-08-08 13:38:54,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:54,664 TRACE PipetteController.moveTo - Moving pipette Z to 36.792
+2021-08-08 13:38:55,665 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:55,667 TRACE PipetteController.moveTo - Moving pipette Z to 38.792
+2021-08-08 13:38:56,661 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:56,663 TRACE PipetteController.moveTo - Moving pipette Z to 40.792
+2021-08-08 13:38:57,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:57,665 TRACE PipetteController.moveTo - Moving pipette Z to 42.792
+2021-08-08 13:38:58,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:58,666 TRACE PipetteController.moveTo - Moving pipette Z to 44.792
+2021-08-08 13:38:59,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:38:59,665 TRACE PipetteController.moveTo - Moving pipette Z to 46.792
+2021-08-08 13:39:00,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:00,666 TRACE PipetteController.moveTo - Moving pipette Z to 48.792
+2021-08-08 13:39:01,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:01,666 TRACE PipetteController.moveTo - Moving pipette Z to 50.792
+2021-08-08 13:39:02,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:02,664 TRACE PipetteController.moveTo - Moving pipette Z to 52.792
+2021-08-08 13:39:03,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:03,664 TRACE PipetteController.moveTo - Moving pipette Z to 54.792
+2021-08-08 13:39:04,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:04,664 TRACE PipetteController.moveTo - Moving pipette Z to 56.792
+2021-08-08 13:39:05,661 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:05,664 TRACE PipetteController.moveTo - Moving pipette Z to 58.792
+2021-08-08 13:39:06,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:06,664 TRACE PipetteController.moveTo - Moving pipette Z to 60.792
+2021-08-08 13:39:07,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:07,666 TRACE PipetteController.moveTo - Moving pipette Z to 62.792
+2021-08-08 13:39:08,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:08,667 TRACE PipetteController.moveTo - Moving pipette Z to 64.792
+2021-08-08 13:39:09,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:09,664 TRACE PipetteController.moveTo - Moving pipette Z to 66.792
+2021-08-08 13:39:10,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:10,665 TRACE PipetteController.moveTo - Moving pipette Z to 68.792
+2021-08-08 13:39:11,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:11,665 TRACE PipetteController.moveTo - Moving pipette Z to 70.792
+2021-08-08 13:39:12,661 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:12,663 TRACE PipetteController.moveTo - Moving pipette Z to 72.792
+2021-08-08 13:39:13,661 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:13,663 TRACE PipetteController.moveTo - Moving pipette Z to 74.792
+2021-08-08 13:39:14,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:14,665 TRACE PipetteController.moveTo - Moving pipette Z to 76.792
+2021-08-08 13:39:15,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:15,666 TRACE PipetteController.moveTo - Moving pipette Z to 78.792
+2021-08-08 13:39:16,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:16,665 TRACE PipetteController.moveTo - Moving pipette Z to 80.792
+2021-08-08 13:39:17,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:17,664 TRACE PipetteController.moveTo - Moving pipette Z to 82.792
+2021-08-08 13:39:18,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:18,664 TRACE PipetteController.moveTo - Moving pipette Z to 84.792
+2021-08-08 13:39:19,671 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:19,674 TRACE PipetteController.moveTo - Moving pipette Z to 86.792
+2021-08-08 13:39:20,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:20,666 TRACE PipetteController.moveTo - Moving pipette Z to 88.792
+2021-08-08 13:39:21,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:21,664 TRACE PipetteController.moveTo - Moving pipette Z to 90.792
+2021-08-08 13:39:22,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:22,666 TRACE PipetteController.moveTo - Moving pipette Z to 92.792
+2021-08-08 13:39:23,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:23,663 TRACE PipetteController.moveTo - Moving pipette Z to 94.792
+2021-08-08 13:39:24,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:24,664 TRACE PipetteController.moveTo - Moving pipette Z to 96.792
+2021-08-08 13:39:25,668 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:25,669 TRACE PipetteController.moveTo - Moving pipette Z to 98.792
+2021-08-08 13:39:26,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:26,664 TRACE PipetteController.moveTo - Moving pipette Z to 100.792
+2021-08-08 13:39:27,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:27,666 TRACE PipetteController.moveTo - Moving pipette Z to 102.792
+2021-08-08 13:39:28,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:28,665 TRACE PipetteController.moveTo - Moving pipette Z to 104.792
+2021-08-08 13:39:29,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:29,664 TRACE PipetteController.moveTo - Moving pipette Z to 106.792
+2021-08-08 13:39:30,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:30,666 TRACE PipetteController.moveTo - Moving pipette Z to 108.792
+2021-08-08 13:39:31,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:31,666 TRACE PipetteController.moveTo - Moving pipette Z to 110.792
+2021-08-08 13:39:32,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:32,664 TRACE PipetteController.moveTo - Moving pipette Z to 112.792
+2021-08-08 13:39:33,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:33,665 TRACE PipetteController.moveTo - Moving pipette Z to 114.792
+2021-08-08 13:39:34,665 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:34,667 TRACE PipetteController.moveTo - Moving pipette Z to 116.792
+2021-08-08 13:39:35,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:35,664 TRACE PipetteController.moveTo - Moving pipette Z to 118.792
+2021-08-08 13:39:36,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:36,666 TRACE PipetteController.moveTo - Moving pipette Z to 120.792
+2021-08-08 13:39:37,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:37,666 TRACE PipetteController.moveTo - Moving pipette Z to 122.792
+2021-08-08 13:39:38,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:38,666 TRACE PipetteController.moveTo - Moving pipette Z to 124.792
+2021-08-08 13:39:39,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:39,664 TRACE PipetteController.moveTo - Moving pipette Z to 126.792
+2021-08-08 13:39:40,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:40,665 TRACE PipetteController.moveTo - Moving pipette Z to 128.792
+2021-08-08 13:39:41,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:41,666 TRACE PipetteController.moveTo - Moving pipette Z to 130.792
+2021-08-08 13:39:42,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:42,666 TRACE PipetteController.moveTo - Moving pipette Z to 132.792
+2021-08-08 13:39:43,665 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:43,667 TRACE PipetteController.moveTo - Moving pipette Z to 134.792
+2021-08-08 13:39:44,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:44,667 TRACE PipetteController.moveTo - Moving pipette Z to 136.792
+2021-08-08 13:39:45,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:45,665 TRACE PipetteController.moveTo - Moving pipette Z to 138.792
+2021-08-08 13:39:46,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:46,666 TRACE PipetteController.moveTo - Moving pipette Z to 140.792
+2021-08-08 13:39:47,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:47,664 TRACE PipetteController.moveTo - Moving pipette Z to 142.792
+2021-08-08 13:39:48,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:48,665 TRACE PipetteController.moveTo - Moving pipette Z to 144.792
+2021-08-08 13:39:49,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:49,665 TRACE PipetteController.moveTo - Moving pipette Z to 146.792
+2021-08-08 13:39:50,661 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:50,663 TRACE PipetteController.moveTo - Moving pipette Z to 148.792
+2021-08-08 13:39:51,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:51,663 TRACE PipetteController.moveTo - Moving pipette Z to 150.792
+2021-08-08 13:39:52,666 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:52,667 TRACE PipetteController.moveTo - Moving pipette Z to 152.792
+2021-08-08 13:39:53,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:53,664 TRACE PipetteController.moveTo - Moving pipette Z to 154.792
+2021-08-08 13:39:54,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:54,665 TRACE PipetteController.moveTo - Moving pipette Z to 156.792
+2021-08-08 13:39:55,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:55,666 TRACE PipetteController.moveTo - Moving pipette Z to 158.792
+2021-08-08 13:39:56,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:56,666 TRACE PipetteController.moveTo - Moving pipette Z to 160.792
+2021-08-08 13:39:57,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:57,664 TRACE PipetteController.moveTo - Moving pipette Z to 162.792
+2021-08-08 13:39:58,665 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:58,667 TRACE PipetteController.moveTo - Moving pipette Z to 164.792
+2021-08-08 13:39:59,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:39:59,666 TRACE PipetteController.moveTo - Moving pipette Z to 166.792
+2021-08-08 13:40:00,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:00,665 TRACE PipetteController.moveTo - Moving pipette Z to 168.792
+2021-08-08 13:40:01,668 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:01,670 TRACE PipetteController.moveTo - Moving pipette Z to 170.792
+2021-08-08 13:40:02,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:02,666 TRACE PipetteController.moveTo - Moving pipette Z to 172.792
+2021-08-08 13:40:03,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:03,666 TRACE PipetteController.moveTo - Moving pipette Z to 174.792
+2021-08-08 13:40:04,674 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:04,677 TRACE PipetteController.moveTo - Moving pipette Z to 176.792
+2021-08-08 13:40:05,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:05,664 TRACE PipetteController.moveTo - Moving pipette Z to 178.792
+2021-08-08 13:40:06,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:06,664 TRACE PipetteController.moveTo - Moving pipette Z to 180.792
+2021-08-08 13:40:07,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:07,664 TRACE PipetteController.moveTo - Moving pipette Z to 182.792
+2021-08-08 13:40:08,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:08,664 TRACE PipetteController.moveTo - Moving pipette Z to 184.792
+2021-08-08 13:40:09,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:09,666 TRACE PipetteController.moveTo - Moving pipette Z to 186.792
+2021-08-08 13:40:10,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:10,665 TRACE PipetteController.moveTo - Moving pipette Z to 188.792
+2021-08-08 13:40:11,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:11,664 TRACE PipetteController.moveTo - Moving pipette Z to 190.792
+2021-08-08 13:40:12,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:12,666 TRACE PipetteController.moveTo - Moving pipette Z to 192.792
+2021-08-08 13:40:13,675 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:13,677 TRACE PipetteController.moveTo - Moving pipette Z to 194.792
+2021-08-08 13:40:14,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:14,666 TRACE PipetteController.moveTo - Moving pipette Z to 196.792
+2021-08-08 13:40:15,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:15,664 TRACE PipetteController.moveTo - Moving pipette Z to 198.792
+2021-08-08 13:40:16,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:16,665 TRACE PipetteController.moveTo - Moving pipette Z to 200.792
+2021-08-08 13:40:17,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:17,666 TRACE PipetteController.moveTo - Moving pipette Z to 202.792
+2021-08-08 13:40:18,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:18,664 TRACE PipetteController.moveTo - Moving pipette Z to 204.792
+2021-08-08 13:40:19,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:19,664 TRACE PipetteController.moveTo - Moving pipette Z to 206.792
+2021-08-08 13:40:20,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:20,664 TRACE PipetteController.moveTo - Moving pipette Z to 208.792
+2021-08-08 13:40:21,663 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:21,665 TRACE PipetteController.moveTo - Moving pipette Z to 210.792
+2021-08-08 13:40:22,666 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:23,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:24,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:25,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:26,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:26,667 TRACE PipetteController.moveTo - Moving pipette Z to 212.792
+2021-08-08 13:40:27,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:28,664 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:29,662 TRACE AutoPatcher.timerFcn - phase = 1, resistance = 5
+2021-08-08 13:40:30,579 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-08 13:40:30,598 ERROR VisualPatcher.logDiary - Could not write diary entry: Invalid file identifier. Use fopen to generate a valid file identifier.
+2021-08-08 21:17:26,218 TRACE stopLiveView - Stopping live view
+2021-08-08 21:17:26,242 TRACE stopPrediction - Stopping live prediction
+2021-08-08 21:17:27,149 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-12 09:35:41,083 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-12 09:35:41,780 TRACE AmplifierSimulator.startup - startup called
+2021-08-12 09:35:45,798 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-12 09:35:51,577 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-12 09:35:56,646 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-21 11:02:49,169 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-21 11:02:49,932 TRACE AmplifierSimulator.startup - startup called
+2021-08-21 11:02:55,886 TRACE startLiveView - Starting live view
+2021-08-21 11:03:28,516 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-21 11:03:30,409 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-21 11:03:31,841 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-21 11:03:44,230 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-08-21 11:05:10,236 TRACE stopLiveView - Stopping live view
+2021-08-21 11:05:10,270 TRACE stopPrediction - Stopping live prediction
+2021-08-21 11:05:10,734 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-29 22:26:35,990 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-29 22:26:36,744 TRACE AmplifierSimulator.startup - startup called
+2021-08-29 22:26:50,286 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-29 22:26:55,055 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-29 22:30:42,160 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-08-29 22:30:42,280 TRACE AmplifierSimulator.startup - startup called
+2021-08-29 22:30:47,500 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-29 22:30:49,526 INFO AutoPatcher.stopFunction - Stopping blind patcher.

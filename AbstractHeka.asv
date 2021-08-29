@@ -75,7 +75,7 @@ classdef AbstractHeka < AbstractAmplifier & handle
             this.giveOrder('Set E Mode 4'); % select current clamp mode
             this.giveOrder('Set E IHold 0'); % set 
             this.giveOrder('Set N  Store TRUE'); % store recording
-            this.giveOrder(['ExecuteProtocol aBreakin',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder(['ExecuteProtocol aBreakin',num2str(model.autopatcher.activePipetteId)];
         end
         
         function rsImprovementSetup(this)
@@ -83,7 +83,7 @@ classdef AbstractHeka < AbstractAmplifier & handle
             this.giveOrder('Set E Gain 11');  % set gain to 10 mV/pA
             this.giveOrder('Set E Mode 3'); % select voltage clamp mode
             this.giveOrder('Set N  Store FALSE'); % don't store recording
-            this.giveOrder(['ExecuteProtocol RESET',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder('ExecuteProtocol RESET');
         end
         
         function rsImprovementFinished(this)

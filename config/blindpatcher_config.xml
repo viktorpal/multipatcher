@@ -77,7 +77,7 @@
          <class>BlindPatcherGuiModel</class>
          <constructorParameters/>
          <properties>
-            <parameter name="figureOuterPosition" type="numeric">[27,106,634,792]</parameter>
+            <parameter name="figureOuterPosition" type="numeric">[-76,134,634,792]</parameter>
             <parameter name="autopatcher" type="reference">autopatcher</parameter>
             <parameter name="rsImprover" type="reference">rsImprover</parameter>
          </properties>

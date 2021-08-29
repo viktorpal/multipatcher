@@ -551,8 +551,7 @@ model.autopatcher.activePipetteId = str2num(contents{get(hObject,'Value')});
 
 function activePipetteIdChanged_Callback(handles)
 model = get(handles.mainfigure, 'UserData');
-model.autopatcher.activePipetteId = [model.autopatcher.activePipetteId(2:end), model.autopatcher.activePipetteId()];
-activePipetteId = model.autopatcher.activePipetteId();
+activePipetteId = model.autopatcher.activePipetteId;
 set(handles.activePipetteId_popup, 'Value', activePipetteId);
 
 % --- Executes during object creation, after setting all properties.

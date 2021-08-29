@@ -230,3 +230,5 @@
 2021-08-03 20:51:52,701 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
 2021-08-03 20:51:52,703 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
 2021-08-03 20:51:56,987 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-08-24 14:08:46,849 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-08-24 14:08:48,699 INFO AutoPatcher.stopFunction - Stopping blind patcher.
