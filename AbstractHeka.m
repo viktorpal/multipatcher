@@ -21,7 +21,7 @@ classdef AbstractHeka < AbstractAmplifier & handle
             this.giveOrder('OpenProtFile multipatcher2.pro');
         end
         
-        function setup(this, reset)
+        function setup(this, reset, activePipetteId)
             if nargin < 2
                 reset = true;
             end
@@ -35,55 +35,55 @@ classdef AbstractHeka < AbstractAmplifier & handle
             this.giveOrder('Set E AutoCFast'); % fast capacitive compensation
             this.giveOrder('Set E AutoZero'); % V0 offset correction
             if reset
-                this.giveOrder(['ExecuteProtocol RESET',num2str(model.autopatcher.activePipetteId)]);
+                this.giveOrder(['ExecuteProtocol RESET',num2str(activePipetteId)]);
             end
         end
         
-        function beforeHunt(this)
+        function beforeHunt(this, activePipetteId)
             this.setup(false);
-            this.giveOrder(['ExecuteProtocol bHunt',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder(['ExecuteProtocol bHunt',num2str(activePipetteId)]);
         end
         
-        function sealing(this, holdingPotential)
+        function sealing(this, holdingPotential, activePipetteId)
             if nargin < 2
                 holdingPotential = -60; 
             end
             this.giveOrder('Set N  Break'); % stop stimulus
             this.giveOrder(['Set E VHold ', num2str(holdingPotential)]); % set holding potential to -60 mV or the requested value
             this.giveOrder('Set N  Store FALSE'); % don't store recording
-            this.giveOrder(['ExecuteProtocol RESET',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder(['ExecuteProtocol RESET',num2str(activePipetteId)]);
         end
         
-        function reset(this)
+        function reset(this, activePipetteId)
             this.giveOrder('Set N  Break'); % stop stimulus
             this.giveOrder('Set E VHold 0'); % set holding potential to 0 mV
             this.giveOrder('Set E Gain 10'); % set gain to 5 mV/pA
-            this.giveOrder(['ExecuteProtocol RESET',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder(['ExecuteProtocol RESET',num2str(activePipetteId)]);
         end
         
-        function beforeBreakin(this)
+        function beforeBreakin(this, activePipetteId)
             this.giveOrder('Set N  Break'); % stop stimulus
             this.giveOrder('Set E VHold -70'); % set holding potential to -60 mV
             this.giveOrder('Set E AutoCFast'); % fast capacitive compensation
             this.giveOrder('Set N  Store FALSE'); % don't store recording
-            this.giveOrder(['ExecuteProtocol bBreakin',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder(['ExecuteProtocol bBreakin',num2str(activePipetteId)]);
         end
         
-        function afterBreakIn(this)
+        function afterBreakIn(this, activePipetteId)
             this.giveOrder('Set N  Break'); % stop stimulus
             this.giveOrder('Set E Gain 11');  % set gain to 10 mV/pA
             this.giveOrder('Set E Mode 4'); % select current clamp mode
             this.giveOrder('Set E IHold 0'); % set 
             this.giveOrder('Set N  Store TRUE'); % store recording
-            this.giveOrder(['ExecuteProtocol aBreakin',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder(['ExecuteProtocol aBreakin',num2str(activePipetteId)]);
         end
         
-        function rsImprovementSetup(this)
+        function rsImprovementSetup(this, activePipetteId)
             this.giveOrder('Set N  Break'); % stop stimulus
             this.giveOrder('Set E Gain 11');  % set gain to 10 mV/pA
             this.giveOrder('Set E Mode 3'); % select voltage clamp mode
             this.giveOrder('Set N  Store FALSE'); % don't store recording
-            this.giveOrder(['ExecuteProtocol RESET',num2str(model.autopatcher.activePipetteId)]);
+            this.giveOrder(['ExecuteProtocol RESET',num2str(activePipetteId)]);
         end
         
         function rsImprovementFinished(this)

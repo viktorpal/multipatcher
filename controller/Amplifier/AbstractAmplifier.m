@@ -4,13 +4,13 @@ classdef AbstractAmplifier < handle
     
     methods (Abstract)
         startup(this)
-        setup(this)
-        beforeHunt(this)
-        sealing(this, holdingPotential)
-        reset(this)
-        beforeBreakin(this)
-        afterBreakIn(this)
-        rsImprovementSetup(this)
+        setup(this, activePipetteId)
+        beforeHunt(this, activePipetteId)
+        sealing(this, holdingPotential, activePipetteId)
+        reset(this, activePipetteId)
+        beforeBreakin(this, activePipetteId)
+        afterBreakIn(this, activePipetteId)
+        rsImprovementSetup(this, activePipetteId)
         rsImprovementFinished(this)
     end
     

@@ -205,8 +205,8 @@ classdef AutoPatcher < matlab.mixin.SetGet
         
         function setupInBath(this)
             this.elphysProcessor.disableBreakInResistance();
-            this.amplifier.setup();
-            this.amplifier.beforeHunt();
+            this.amplifier.setup(this.activePipetteId);
+            this.amplifier.beforeHunt(this.activePipetteId);
             this.pressureController.setPressure(this.lowPositivePressure);
         end
         
@@ -403,7 +403,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
                 this.subphase = 0;
                 this.initRequiredInTimer = false;
                 if this.phase == 1
-                    this.amplifier.setup();
+                    this.amplifier.setup(this.activePipetteId);
                     this.amplifierSealingProtocolTime = 0;
                     this.amplifierSealingLastResistance = 0;
                     this.status = AutoPatcherStates.Hunting;
@@ -531,7 +531,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
                             sealingIdx = numel(this.sealingProtocolRValues);
                         end
                         if sealingIdx > sealingLastIdx
-                            this.amplifier.sealing(this.sealingProtocolVoltageValues(sealingIdx));
+                            this.amplifier.sealing(this.sealingProtocolVoltageValues(sealingIdx), this.activePipetteId);
                             this.amplifierSealingLastResistance = resistance;
                         end
                     end
@@ -549,7 +549,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
                     this.phase = 4;
                     this.phaseChangeTime = now;
                     this.pressureController.setPressure(0);
-                    this.amplifier.beforeBreakin();
+                    this.amplifier.beforeBreakin(this.activePipetteId);
                 case 4 % break-in after preparation step, if already broke-in, it should be handled correctly
                     delay = time2sec(now-this.phaseChangeTime);
                     if delay < this.maxBreakInTime && ~isempty(this.resistanceHistory(end))
@@ -582,7 +582,7 @@ classdef AutoPatcher < matlab.mixin.SetGet
                 case 5 % give some time to the cell membrane to attach to the pipette wall
                     delay = time2sec(now-this.phaseChangeTime);
                     if delay > this.minDelayBeforeBreakIn
-                        this.amplifier.afterBreakIn();
+                        this.amplifier.afterBreakIn(this.activePipetteId);
                         this.phase = 6;
                         this.phaseChangeTime = now;
                         this.stopFunction();

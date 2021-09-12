@@ -7551,3 +7551,31 @@
 2021-08-29 22:30:42,280 TRACE AmplifierSimulator.startup - startup called
 2021-08-29 22:30:47,500 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
 2021-08-29 22:30:49,526 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-03 14:36:23,588 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-09-03 14:36:24,222 TRACE AmplifierSimulator.startup - startup called
+2021-09-03 14:36:28,025 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-03 14:36:29,662 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-09-03 14:36:35,595 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-09 12:01:41,196 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-09-09 12:01:41,861 TRACE AmplifierSimulator.startup - startup called
+2021-09-09 12:01:55,047 TRACE startLiveView - Starting live view
+2021-09-09 12:02:22,929 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-09 12:02:24,505 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-09-09 14:12:49,577 TRACE stopLiveView - Stopping live view
+2021-09-09 14:12:49,613 TRACE stopPrediction - Stopping live prediction
+2021-09-09 14:12:49,914 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-11 00:43:24,487 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-09-11 00:43:25,177 TRACE AmplifierSimulator.startup - startup called
+2021-09-11 00:43:29,589 TRACE startLiveView - Starting live view
+2021-09-11 00:43:30,487 TRACE stopLiveView - Stopping live view
+2021-09-11 00:43:30,529 TRACE stopPrediction - Stopping live prediction
+2021-09-11 00:43:32,857 TRACE startLiveView - Starting live view
+2021-09-11 00:45:42,952 TRACE stopLiveView - Stopping live view
+2021-09-11 00:45:42,967 TRACE stopPrediction - Stopping live prediction
+2021-09-11 00:45:43,428 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-13 00:32:48,437 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-09-13 00:32:49,080 TRACE AmplifierSimulator.startup - startup called
+2021-09-13 00:32:58,068 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-13 00:32:59,617 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-09-13 00:33:02,044 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-13 00:33:04,020 INFO AutoPatcher.stopFunction - Stopping blind patcher.
