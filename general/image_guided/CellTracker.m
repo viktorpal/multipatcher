@@ -35,6 +35,7 @@ classdef CellTracker < matlab.mixin.SetGet
         reinitNumpoints % reinit feature points when number of points falls below (useful if num feature points is low)
         corrZsameMultiplier % correlation multiplier for z direction tracking, because same position corr value is usually very high (should be ~1)
         autoAdjust % toggle to automatically adjust the pipette or just track the cell
+        activePipetteId
     end
     
     properties (SetAccess = protected, SetObservable)

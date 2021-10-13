@@ -7579,3 +7579,33 @@
 2021-09-13 00:32:59,617 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
 2021-09-13 00:33:02,044 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
 2021-09-13 00:33:04,020 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-14 18:27:28,303 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-09-14 18:27:28,681 TRACE AmplifierSimulator.startup - startup called
+2021-09-14 18:27:32,578 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-14 18:27:34,661 TRACE AmplifierSimulator.setup - setup called
+2021-09-14 18:27:34,667 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
+2021-09-14 18:27:43,811 TRACE AmplifierSimulator.setup - setup called
+2021-09-14 18:27:43,814 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
+2021-09-14 18:27:49,939 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-09-14 18:27:51,888 TRACE AmplifierSimulator.setup - setup called
+2021-09-14 18:27:51,890 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
+2021-09-14 18:28:24,719 ERROR mainfigure_CloseRequestFcn - Error while closing window: Dot indexing is not supported for variables of this type.
+2021-09-14 20:49:49,408 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-22 20:20:36,919 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-09-22 20:20:37,714 TRACE AmplifierSimulator.startup - startup called
+2021-09-22 20:20:40,575 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-22 20:20:50,674 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-09-22 20:20:58,464 TRACE startLiveView - Starting live view
+2021-09-22 20:21:00,030 TRACE AmplifierSimulator.setup - setup called
+2021-09-22 20:21:00,033 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
+2021-09-22 20:21:02,001 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-22 20:21:03,749 TRACE AmplifierSimulator.setup - setup called
+2021-09-22 20:21:03,751 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
+2021-09-22 20:21:07,718 TRACE stopLiveView - Stopping live view
+2021-09-22 20:21:07,738 TRACE stopPrediction - Stopping live prediction
+2021-09-22 20:21:08,016 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-24 00:48:03,735 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-09-24 00:48:04,460 TRACE AmplifierSimulator.startup - startup called
+2021-09-24 00:48:08,358 TRACE AmplifierSimulator.setup - setup called
+2021-09-24 00:48:08,363 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
+2021-09-24 00:48:09,378 INFO AutoPatcher.stopFunction - Stopping blind patcher.

@@ -279,6 +279,7 @@ classdef VisualPatcher < matlab.mixin.SetGet
     methods (Access = protected)
         
         function startTracking(this)
+            this.tracker.activePipetteId = this.activePipetteId; 
             this.tracker.start();
         end
         

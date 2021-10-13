@@ -205,8 +205,8 @@ classdef AutoPatcher < matlab.mixin.SetGet
         
         function setupInBath(this)
             this.elphysProcessor.disableBreakInResistance();
-            this.amplifier.setup(this.activePipetteId);
-            this.amplifier.beforeHunt(this.activePipetteId);
+            this.amplifier.setup();
+            this.amplifier.beforeHunt();
             this.pressureController.setPressure(this.lowPositivePressure);
         end
         

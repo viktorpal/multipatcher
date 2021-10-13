@@ -232,3 +232,11 @@
 2021-08-03 20:51:56,987 INFO AutoPatcher.stopFunction - Stopping blind patcher.
 2021-08-24 14:08:46,849 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
 2021-08-24 14:08:48,699 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-14 18:22:20,360 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-14 18:22:21,916 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 1
+2021-09-14 18:23:10,963 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-14 18:23:11,122 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-09-14 18:23:50,330 INFO AutoPatcher.activePipetteIdChangeCb - The activePipetteId was changed to: 2
+2021-09-14 18:24:53,707 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-10-05 23:36:48,845 INFO GuiModel.set.sampleTop - Sample top position set to: 0
+2021-10-05 23:37:30,956 INFO AutoPatcher.stopFunction - Stopping blind patcher.
