@@ -21,8 +21,8 @@ classdef AbstractHeka < AbstractAmplifier & handle
             this.giveOrder('OpenProtFile multipatcher2.pro');
         end
         
-        function setup(this, reset, activePipetteId)
-            if nargin < 2
+        function setup(this, activePipetteId, reset)
+            if nargin < 3
                 reset = true;
             end
             this.giveOrder('Set N  Break'); % stop stimulus

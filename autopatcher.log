@@ -7609,3 +7609,14 @@
 2021-09-24 00:48:08,358 TRACE AmplifierSimulator.setup - setup called
 2021-09-24 00:48:08,363 TRACE AmplifierSimulator.beforeHunt - beforeHunt called
 2021-09-24 00:48:09,378 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-10-13 17:07:06,686 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-10-13 17:07:07,467 TRACE AmplifierSimulator.startup - startup called
+2021-10-13 17:07:15,907 TRACE startLiveView - Starting live view
+2021-10-13 17:07:27,183 INFO GuiModel.set.sampleTop - Sample top position set to: 0
+2021-10-13 17:07:29,684 DEBUG clickPatchClamp - Starting targeted patch-clamping caused by click in live view at 77.8993     -89.3803            0, pixel positions xy: 677.3853, 777.2201
+2021-10-13 17:07:56,532 TRACE stopLiveView - Stopping live view
+2021-10-13 17:07:56,548 TRACE stopPrediction - Stopping live prediction
+2021-10-13 17:07:56,689 INFO AutoPatcher.stopFunction - Stopping blind patcher.
+2021-10-13 17:26:08,574 DEBUG ImageStack.load - Loading image stack: data/tissue006.tif
+2021-10-13 17:26:08,675 TRACE AmplifierSimulator.startup - startup called
+2021-10-14 12:18:29,538 INFO AutoPatcher.stopFunction - Stopping blind patcher.
